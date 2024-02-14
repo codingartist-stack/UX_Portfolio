@@ -5,6 +5,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --clr-primary-700: #674188;
+  --clr-secondary-300: #c3acd0;
+  --clr-neutral-200: #f7efe5;
+  --clr-neutral-grey-300: rgb(171, 171, 171);
 }
-
-
