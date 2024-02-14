@@ -14,13 +14,15 @@ export default function Footer() {
               srcset=""
               className="footerIcon"
             />
-            https://www.linkedin.com/in/sarahmlarsen/
+            <span className="linkedInURL">
+              https://www.linkedin.com/in/sarahmlarsen/
+            </span>
           </a>
           <p>
-            <span className="scr-only">map-marker</span> Hesperia, CA
+            <span className="scr-only">envelope</span> sarahlarsenux@gmail.com
           </p>
           <p>
-            <span className="scr-only">envelope</span> sarahlarsenux@gmail.com
+            <span className="scr-only">map-marker</span> Hesperia, CA
           </p>
         </div>
       </footer>

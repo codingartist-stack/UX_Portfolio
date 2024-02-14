@@ -22,6 +22,8 @@
   --clr-neutral-grey-300: rgb(171, 171, 171);
   --font-family-icon: LinearIcons, Inter, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
+
+  --logo-font: BLANKA, 'Courier New', Courier, monospace;
 }
 
 html,
@@ -57,11 +59,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem 0.5rem 1rem;
+  flex-wrap: wrap;
+  /* width: 100%; */
 }
 
 .navigation ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -112,12 +117,24 @@ footer {
   padding: 2rem 1rem 2rem 1rem;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
   color: white;
 
   display: flex;
   gap: 2rem;
   align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .linkedInURL {
+    display: none;
+  }
 }
 
 footer p {
@@ -131,6 +148,10 @@ footer p {
 
 .footerIcon {
   height: 2rem;
+}
+
+.footerIcon:hover {
+  height: 2.25rem;
 }
 
 .infoWrapper {
@@ -147,4 +168,10 @@ footer p {
 
 .infoWrapper a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 650px) {
+  .infoWrapper {
+    justify-items: center;
+  }
 }
