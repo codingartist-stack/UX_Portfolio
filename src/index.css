@@ -11,3 +11,9 @@
   --clr-neutral-200: #f7efe5;
   --clr-neutral-grey-300: rgb(171, 171, 171);
 }
+
+.errorPage {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
