@@ -3,6 +3,11 @@
   src: url('./assets/fonts/Linearicons/Linearicons-Free.ttf');
 }
 
+@font-face {
+  font-family: 'BLANKA';
+  src: url('./assets/fonts/BLANKA\ Font/Blanka-Regular.otf');
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
