@@ -104,8 +104,42 @@ a:visited {
 
 footer {
   background-color: var(--clr-primary-700);
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
   position: absolute;
   bottom: 0;
   width: 100%;
+  color: white;
+
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  padding: 0.25rem;
+}
+
+.FooterLogo {
+  height: 4rem;
+}
+
+.footerIcon {
+  height: 2rem;
+}
+
+.infoWrapper {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.infoWrapper a {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 0.5rem;
+}
+
+.infoWrapper a:hover {
+  text-decoration: underline;
 }
