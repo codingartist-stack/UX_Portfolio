@@ -19,6 +19,20 @@
     sans-serif;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  position: relative;
+}
+
 .errorPage {
   display: grid;
   place-items: center;
@@ -27,4 +41,71 @@
 
 .scr-only {
   font-family: var(--font-family-icon);
+}
+
+/* NAVIGATION */
+
+.navigation {
+  display: flex;
+  background-color: var(--clr-primary-700);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 0.75rem;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  color: white;
+  position: relative;
+}
+
+.navigation a::before,
+.navigation a.active::before {
+  content: ' ';
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.navigation a:hover::before,
+.navigation a.active::before {
+  width: 100%;
+}
+
+.navLogo {
+  height: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: var(--clr-primary-700);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

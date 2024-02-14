@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <h1>UX Portfolio</h1>
       <NavBar />
       <Outlet />
       <Footer />
