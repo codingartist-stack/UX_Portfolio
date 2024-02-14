@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'LinearIcons';
+  src: url('./assets/fonts/Linearicons/Linearicons-Free.ttf');
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
@@ -10,10 +15,16 @@
   --clr-secondary-300: #c3acd0;
   --clr-neutral-200: #f7efe5;
   --clr-neutral-grey-300: rgb(171, 171, 171);
+  --font-family-icon: LinearIcons, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
 }
 
 .errorPage {
   display: grid;
   place-items: center;
   width: 100%;
+}
+
+.scr-only {
+  font-family: var(--font-family-icon);
 }
