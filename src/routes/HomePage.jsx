@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 export default function HomePage() {
   return (
     <>
-      <h1>Hi, I'm Sarah Larsen.</h1>
-      <p>
-        As a UX designer and artist, I employ a blend of creative and logical
-        approaches, allowing me to address both the emotional and practical
-        aspects of interface usability.
-      </p>
+      <div>
+        <h1>Hi, I'm Sarah Larsen.</h1>
+        <p>
+          As a UX designer and artist, I employ a blend of creative and logical
+          approaches, allowing me to address both the emotional and practical
+          aspects of interface usability.
+        </p>
+      </div>
       <div className="featureProject">
         <h2>
           Feature Project: <br /> Responsive Art Musuem

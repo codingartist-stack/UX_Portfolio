@@ -257,6 +257,10 @@ main > * {
   gap: 0.5rem;
 }
 
+.flexLink:hover {
+  text-decoration: underline;
+}
+
 /* CASE STUDIES */
 .caseLinkWrapper {
   display: grid;
