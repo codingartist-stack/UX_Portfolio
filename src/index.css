@@ -54,13 +54,18 @@ body {
 
 .navigation {
   display: flex;
-  background-color: var(--clr-primary-700);
-  color: white;
+  /* background-color: var(--clr-neutral-200); */
+  color: var(--clr-primary-700);
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem 0.5rem 1rem;
   flex-wrap: wrap;
+  box-shadow: 0 5px 5px rgba(80, 80, 80, 0.2);
   /* width: 100%; */
+}
+
+.mobileNavToggle {
+  display: none;
 }
 
 .navigation ul {
@@ -69,11 +74,42 @@ body {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+@media (max-width: 45em) {
+  .navigation {
+    padding: 1rem;
+  }
+
+  .navigation ul {
+    position: fixed;
+    inset: 0 0 0 35%;
+    flex-direction: column;
+    gap: 0.75em;
+    background-color: white;
+    box-shadow: -5px 0 5px rgba(80, 80, 80, 0.3);
+    z-index: 2;
+    padding: min(30vh, 7rem) 2rem;
+  }
+
+  .mobileNavToggle {
+    display: block;
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 2rem;
+
+    position: absolute;
+    top: 0.5rem;
+    right: 2rem;
+    z-index: 999;
+    border: none;
+  }
 }
 
 .navigation li {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 0.75rem;
 }
 
@@ -85,7 +121,7 @@ a:visited {
 .navigation a {
   text-decoration: none;
   padding: 0.75rem 1rem 0.75rem 1rem;
-  color: white;
+  /* color: white; */
   position: relative;
 }
 
@@ -97,7 +133,7 @@ a:visited {
   left: 0;
   height: 3px;
   width: 0;
-  background-color: white;
+  background-color: var(--clr-primary-700);
   transition: 0.3s;
 }
 
@@ -148,6 +184,12 @@ footer p {
 
 .footerIcon {
   height: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+  .FooterLogo {
+    height: 2.5rem;
+  }
 }
 
 .footerIcon:hover {
