@@ -16,7 +16,7 @@ export default function ContactPage() {
             className="footerIcon"
             // width="24px"
           />
-          <span className="linkedInURL">
+          <span className="linkedInURLContact">
             https://www.linkedin.com/in/sarahmlarsen/
           </span>
         </a>
