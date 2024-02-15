@@ -59,12 +59,12 @@ button:hover {
   grid-template-rows: auto 1fr auto;
 }
 
-@media (max-width: 45em) {
+/* @media (max-width: 45em) {
   #root {
     display: flex;
     flex-direction: column;
   }
-}
+} */
 
 .errorPage {
   display: grid;
