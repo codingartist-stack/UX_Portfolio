@@ -25,16 +25,22 @@ export default function NavBar() {
         </NavLink>
         <ul data-visible={navToggle}>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/" onClick={handleToggle}>
+              Home
+            </NavLink>
           </li>
           {/* <li>
             <NavLink to="about">About</NavLink>
           </li> */}
           <li>
-            <NavLink to="caseStudies">UX Case Studies</NavLink>
+            <NavLink to="caseStudies" onClick={handleToggle}>
+              UX Case Studies
+            </NavLink>
           </li>
           <li>
-            <NavLink to="contact">Contact</NavLink>
+            <NavLink to="contact" onClick={handleToggle}>
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>
