@@ -199,19 +199,19 @@ main > * {
 
 .featureProject h2 {
   position: absolute;
-  left: 1rem;
+  left: 1.5rem;
   color: white;
 }
 
 .featureProject button {
   position: absolute;
   bottom: 1rem;
-  left: 1rem;
+  left: 1.5rem;
 }
 
 .heroImage {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   grid-column: content;
   object-fit: cover;
   opacity: 0.4;
@@ -224,7 +224,7 @@ main > * {
   }
 
   .heroImage {
-    height: 30svh;
+    height: 40svh;
   }
 }
 
@@ -233,6 +233,12 @@ main > * {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+/* CASE STUDIES */
+.caseLinkWrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* FOOTER */
