@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'BLANKA';
-  src: url('./assets/fonts/BLANKA\ Font/Blanka-Regular.otf');
+  src: url('./assets/fonts/BLANKA/Blanka-Regular.otf');
 }
 
 :root {
@@ -26,7 +26,7 @@
   --font-family-icon: LinearIcons, Inter, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
 
-  --logo-font: BLANKA, 'Courier New', Courier, monospace;
+  --logo-font: 'BLANKA', 'Courier New', Courier, monospace;
 }
 
 html,
