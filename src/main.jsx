@@ -8,8 +8,8 @@ import HomePage from './routes/HomePage.jsx';
 import AboutPage from './routes/About.jsx';
 import ContactPage from './routes/Contact.jsx';
 import CaseStudies from './routes/CaseStudies.jsx';
-import Project from './routes/Project.jsx';
 import ArtMuseumPage from './routes/ArtMuseum.jsx';
+import GymAppPage from './routes/GymAppPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +40,14 @@ const router = createBrowserRouter([
       {
         path: 'responsiveArtMuseum',
         element: <ArtMuseumPage />,
+      },
+      {
+        path: 'caseStudies/gymAppRedesign',
+        element: <GymAppPage />,
+      },
+      {
+        path: 'gymAppRedesign',
+        element: <GymAppPage />,
       },
     ],
   },
