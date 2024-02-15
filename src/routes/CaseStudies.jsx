@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import artImgLink from '../assets/images/ArtMuseum/artImage.png';
+import gymImgLink from '../assets/images/GymApp/GymImage.png';
 
 export default function CaseStudies() {
   return (
@@ -8,9 +10,13 @@ export default function CaseStudies() {
         <Link
           to="caseStudies/responsiveArtMuseum"
           className="imageLink artMuseum"
-        ></Link>
-        <div>box 2</div>
-        <div>box 3</div>
+        >
+          <img src={artImgLink} alt="Art Musuem High Fidelity Mockups" />
+        </Link>
+        <Link className="imageLink gymApp">
+          <img src={gymImgLink} alt="Gym App High Fidelity Mockup" />
+        </Link>
+        <div>Project Under Construction</div>
       </div>
     </>
   );

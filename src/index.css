@@ -237,8 +237,14 @@ main > * {
 
 /* CASE STUDIES */
 .caseLinkWrapper {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.imageLink img {
+  width: 100%;
+  object-fit: cover;
 }
 
 /* FOOTER */
