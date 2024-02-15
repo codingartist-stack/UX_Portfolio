@@ -13,7 +13,9 @@ export default function CaseStudies() {
         </Link>
         <Link to="gymAppRedesign" className="imageLink gymApp">
           <img src={gymImgLink} alt="Gym App High Fidelity Mockup" />
-          <h2>Gym App</h2>
+          <h2>
+            Redesign: <br /> Local Recreation Center
+          </h2>
         </Link>
         <div>Project Under Construction</div>
       </div>
