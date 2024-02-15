@@ -17,7 +17,7 @@ export default function CaseStudies() {
             Redesign: <br /> Local Recreation Center
           </h2>
         </Link>
-        {/* <div>Project Under Construction</div> */}
+        <div>Project Under Construction</div>
       </div>
     </>
   );

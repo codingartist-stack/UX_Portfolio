@@ -21,7 +21,7 @@ export default function NavBar() {
       </button>
       <nav className="navigation">
         <NavLink to="/">
-          <img src={logo} className="navLogo" />
+          <p className="logoFont">SML</p>
         </NavLink>
         <ul data-visible={navToggle}>
           <li>
