@@ -112,6 +112,7 @@ button:hover {
 
   .navigation ul {
     position: fixed;
+    justify-content: start;
     inset: 0 0 0 35%;
     flex-direction: column;
     gap: 0.75em;
@@ -146,7 +147,7 @@ button:hover {
 .navigation li {
   font-weight: 500;
   font-size: 1.25rem;
-  padding: 0.75rem;
+  margin: 0.75rem 0 0.75rem 0;
 }
 
 a,
@@ -156,8 +157,6 @@ a:visited {
 
 .navigation a {
   text-decoration: none;
-  padding: 0.75rem 1rem 0.75rem 1rem;
-  /* color: white; */
   position: relative;
 }
 
@@ -165,7 +164,7 @@ a:visited {
 .navigation a.active::before {
   content: ' ';
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 0;
   left: 0;
   height: 3px;
   width: 0;
@@ -223,7 +222,7 @@ main > * {
   position: absolute;
   left: 1.5rem;
   color: white;
-  z-index: 3;
+  z-index: 1;
 
   display: grid;
   gap: 0.75rem;
@@ -241,7 +240,7 @@ main > * {
   grid-column: content;
   object-fit: cover;
   opacity: 0.45;
-  z-index: 1;
+
   /* box-shadow: 3px 5px 5px rgba(80, 80, 80, 0.2); */
 }
 
