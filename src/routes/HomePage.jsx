@@ -15,13 +15,14 @@ export default function HomePage() {
       <div className="featureProject">
         <h2>
           Feature Project: <br /> Responsive Art Musuem
+          <br />
+          <Link to="caseStudies/responsiveArtMuseum">
+            <button>
+              Case Study <span className="scr-only"> arrow-right </span>
+            </button>
+          </Link>
         </h2>
         <img src={artMuseum} alt="art Museum project" className="heroImage" />
-        <Link to="caseStudies/responsiveArtMuseum">
-          <button>
-            Case Study <span className="scr-only"> arrow-right </span>
-          </button>
-        </Link>
       </div>
     </>
   );

@@ -223,13 +223,17 @@ main > * {
   position: absolute;
   left: 1.5rem;
   color: white;
+  z-index: 3;
+
+  display: grid;
+  gap: 0.75rem;
 }
 
-.featureProject button {
+/* .featureProject button {
   position: absolute;
   bottom: 1rem;
   left: 1.5rem;
-}
+} */
 
 .heroImage {
   width: 100%;
@@ -237,6 +241,7 @@ main > * {
   grid-column: content;
   object-fit: cover;
   opacity: 0.45;
+  z-index: 1;
   /* box-shadow: 3px 5px 5px rgba(80, 80, 80, 0.2); */
 }
 
