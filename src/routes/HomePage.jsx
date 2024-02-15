@@ -1,4 +1,5 @@
 import artMuseum from '../assets/images/ArtMuseum/artProject.png';
+import { Link } from 'react-router-dom';
 
 export default function HomePage() {
   return (
@@ -9,9 +10,17 @@ export default function HomePage() {
         approaches, allowing me to address both the emotional and practical
         aspects of interface usability.
       </p>
-      <img src={artMuseum} alt="art Museum project" className="heroImage" />
-      <div>box 2</div>
-      <div>box 3</div>
+      <div className="featureProject">
+        <h2>
+          Feature Project: <br /> Responsive Art Musuem
+        </h2>
+        <img src={artMuseum} alt="art Museum project" className="heroImage" />
+        <Link to="caseStudies/responsiveArtMuseum">
+          <button>
+            Case Study <span className="scr-only"> arrow-right </span>
+          </button>
+        </Link>
+      </div>
     </>
   );
 }

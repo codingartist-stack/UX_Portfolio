@@ -9,6 +9,7 @@ import AboutPage from './routes/About.jsx';
 import ContactPage from './routes/Contact.jsx';
 import CaseStudies from './routes/CaseStudies.jsx';
 import Project from './routes/Project.jsx';
+import ArtMuseumPage from './routes/ArtMuseum.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,8 +34,8 @@ const router = createBrowserRouter([
         element: <CaseStudies />,
       },
       {
-        path: 'caseStudies/projectTitle',
-        element: <Project />,
+        path: 'caseStudies/responsiveArtMuseum',
+        element: <ArtMuseumPage />,
       },
     ],
   },
