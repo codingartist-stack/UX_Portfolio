@@ -32,7 +32,7 @@
 html,
 body,
 #root {
-  height: 100%;
+  min-height: 100svh;
 }
 
 body {
@@ -50,10 +50,20 @@ button {
 
 button:hover {
   background-color: #401864;
+  color: white;
 }
 
 #root {
   position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+@media (max-width: 45em) {
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .errorPage {
@@ -176,12 +186,12 @@ main {
   grid-template-columns:
     [full-width-start] minmax(1rem, 1fr) [content-start] min(100% - 2rem, 60rem)
     [content-end] minmax(1rem, 1fr) [full-width-end];
-
+  grid-template-rows: auto 1fr;
   padding: 1.5rem 0 1.5rem 0;
 }
 
 main p {
-  width: max(55ch);
+  max-width: 55ch;
   margin-top: 0.25rem;
 }
 
@@ -279,7 +289,7 @@ main > * {
 footer {
   background-color: var(--clr-primary-700);
   padding: 2rem 1rem 2rem 1rem;
-  /* position: absolute;
+  /* position: fixed;
   bottom: 0;
   left: 0;
   right: 0; */
@@ -291,7 +301,7 @@ footer {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 45rem) {
   footer {
     flex-direction: column;
   }
@@ -314,7 +324,7 @@ footer p {
   height: 2rem;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 45rem) {
   .FooterLogo {
     height: 2.5rem;
   }
@@ -340,7 +350,7 @@ footer p {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 45rem) {
   .infoWrapper {
     justify-items: center;
   }
