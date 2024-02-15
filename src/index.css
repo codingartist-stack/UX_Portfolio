@@ -75,6 +75,7 @@ button:hover {
 .scr-only {
   font-family: var(--font-family-icon);
   padding: 0 0.5rem 0 0.5rem;
+  font-size: 1.25rem;
 }
 
 /* NAVIGATION */
@@ -186,7 +187,7 @@ main {
   grid-template-columns:
     [full-width-start] minmax(1rem, 1fr) [content-start] min(100% - 2rem, 60rem)
     [content-end] minmax(1rem, 1fr) [full-width-end];
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr;
   padding: 1.5rem 0 1.5rem 0;
 }
 
