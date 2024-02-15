@@ -153,15 +153,17 @@ a:visited {
   height: 2rem;
 }
 
+/* HERO IMAGE */
+
 /* FOOTER */
 
 footer {
   background-color: var(--clr-primary-700);
   padding: 2rem 1rem 2rem 1rem;
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 0; */
   color: white;
 
   display: flex;
