@@ -5,6 +5,7 @@ export default function Footer() {
     <>
       <footer>
         <p className="logoFont footerFont">SML</p>
+
         <div className="infoWrapper">
           <a href="https://www.linkedin.com/in/sarahmlarsen/" target="_blank">
             <img src={linkedIn} alt="Linkedin icon" className="footerIcon" />
