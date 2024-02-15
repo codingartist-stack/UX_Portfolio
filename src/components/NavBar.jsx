@@ -27,9 +27,9 @@ export default function NavBar() {
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="about">About</NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="caseStudies">UX Case Studies</NavLink>
           </li>
