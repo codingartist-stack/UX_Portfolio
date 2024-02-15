@@ -4,12 +4,9 @@ import { useState } from 'react';
 
 export default function NavBar() {
   const [navToggle, setNavToggle] = useState(false);
-  const [menuContent, setMenuContent] = useState('menu');
 
   const handleToggle = () => {
     setNavToggle(!navToggle);
-
-    console.log(navToggle);
   };
 
   return (
@@ -20,11 +17,13 @@ export default function NavBar() {
         aria-expanded="false"
         onClick={handleToggle}
       >
-        {menuContent}
+        {!navToggle ? 'menu' : 'cross'}
       </button>
       <nav className="navigation">
-        <img src={logo} className="navLogo" />
-        <ul>
+        <NavLink to="/">
+          <img src={logo} className="navLogo" />
+        </NavLink>
+        <ul data-visible={navToggle}>
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
