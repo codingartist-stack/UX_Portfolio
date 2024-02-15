@@ -144,6 +144,11 @@ button:hover {
     z-index: 999;
     border: none;
   }
+
+  .mobileNavToggle:hover {
+    color: var(--clr-primary-700);
+    background-color: white;
+  }
 }
 
 .navigation li {
