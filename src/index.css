@@ -214,7 +214,7 @@ main > * {
   /* height: 100%; */
   grid-column: content;
   object-fit: cover;
-  opacity: 0.4;
+  opacity: 0.45;
   /* box-shadow: 3px 5px 5px rgba(80, 80, 80, 0.2); */
 }
 
@@ -238,13 +238,40 @@ main > * {
 /* CASE STUDIES */
 .caseLinkWrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
+}
+
+.imageLink {
+  background-color: black;
+  position: relative;
+  height: 35svh;
+}
+
+.imageLink:hover {
+  background-color: var(--clr-primary-hover);
+}
+
+.imageLink h2 {
+  color: white;
+  position: absolute;
+  top: 1rem;
+  /* left: 1rem; */
+  background-color: var(--clr-primary-700);
+  width: 100%;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  font-size: 1.25rem;
+}
+
+.imageLink h2:hover {
+  background-color: var(--clr-primary-hover);
 }
 
 .imageLink img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
+  opacity: 0.5;
 }
 
 /* FOOTER */

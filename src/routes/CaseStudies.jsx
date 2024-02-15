@@ -7,14 +7,13 @@ export default function CaseStudies() {
     <>
       <h1>Case Studies</h1>
       <div className="caseLinkWrapper">
-        <Link
-          to="caseStudies/responsiveArtMuseum"
-          className="imageLink artMuseum"
-        >
+        <Link to="responsiveArtMuseum" className="imageLink artMuseum">
           <img src={artImgLink} alt="Art Musuem High Fidelity Mockups" />
+          <h2>Responsive Art Musuem Website</h2>
         </Link>
         <Link className="imageLink gymApp">
           <img src={gymImgLink} alt="Gym App High Fidelity Mockup" />
+          <h2>Gym App</h2>
         </Link>
         <div>Project Under Construction</div>
       </div>

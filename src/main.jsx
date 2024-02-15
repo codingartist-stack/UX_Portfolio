@@ -37,6 +37,10 @@ const router = createBrowserRouter([
         path: 'caseStudies/responsiveArtMuseum',
         element: <ArtMuseumPage />,
       },
+      {
+        path: 'responsiveArtMuseum',
+        element: <ArtMuseumPage />,
+      },
     ],
   },
 ]);
