@@ -13,6 +13,13 @@ export default function Footer() {
               https://www.linkedin.com/in/sarahmlarsen/
             </span>
           </a>
+          <a
+            href="https://docs.google.com/document/d/1z9zeW7c0c3TFS-KmFFlD7nkfAH47Dq-8Yatf7SDxy8g/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="scr-only">file-empty</span> Resume
+          </a>
           <p>
             <span className="scr-only">envelope</span> sarahlarsenux@gmail.com
           </p>

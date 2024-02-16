@@ -365,7 +365,7 @@ footer {
 
 footer p {
   margin: 0;
-  padding: 0.25rem;
+  /* padding: 0.25rem; */
 }
 
 .footerFont {
@@ -382,10 +382,6 @@ footer p {
   }
 }
 
-.footerIcon:hover {
-  height: 2.25rem;
-}
-
 .infoWrapper {
   display: grid;
   gap: 0.5rem;
@@ -396,6 +392,7 @@ footer p {
   align-items: center;
   color: white;
   gap: 0.5rem;
+  text-decoration: underline;
 }
 
 .infoWrapper a:hover {
