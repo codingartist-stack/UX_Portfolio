@@ -4,11 +4,13 @@ export default function ArtMuseumPage() {
       <h1>Responsive Art Museum</h1>
       <div className="contentWrapper">
         <p>
-          To create a responsive Art Museum website I looked into users that
-          enjoy looking at art. I made the assumption that if users were looking
-          at an art museum&apos;s website or app they would like to see the art
-          in person. In reality users would like to know what to expect to see
-          and if the Museum offers a place to study, learn, and create art.
+          To develop a user-friendly Art Museum website, I conducted research on
+          individuals who appreciate visual arts. I hypothesized that users
+          exploring an art museum's website or app likely have an interest in
+          experiencing the artwork firsthand. However, it became apparent that
+          users are more interested in understanding what exhibits to anticipate
+          and whether the museum provides opportunities for studying, learning,
+          and engaging in art creation.
         </p>
         <p>
           <a
@@ -26,6 +28,15 @@ export default function ArtMuseumPage() {
             rel="noopener noreferrer"
           >
             Mobile High Fidelity Prototype
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://docs.google.com/presentation/d/18YKe5o1r_ceKvSgS5rVZzwj4A_vJFkZVz66f-tQ5cjY/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Case study
           </a>
         </p>
         <div className="iframeWrapper">

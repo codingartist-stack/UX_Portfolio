@@ -4,12 +4,14 @@ export default function GymAppPage() {
       <h1>Redesign: Local Recreation Center</h1>
       <div className="contentWrapper">
         <p>
-          This app is for a local gym I attended when I lived in Orem Utah, Orem
-          Recreation Center. This app can be a companion for your recreation
-          center experience. As the recreation center has many classes to offer
-          patrons but the current site creates confusion and frustration among
-          users. These users are mainly mothers who need to sign they children
-          up for classes such as dance, swim, and sports.
+          This application is designed for the Orem Recreation Center, a local
+          gym I frequented during my time in Orem, Utah. Intended to enhance
+          your recreation center experience, the app addresses the challenges
+          posed by the current website, which often leads to confusion and
+          frustration for users. Primarily catering to mothers, the app
+          simplifies the process of signing up their children for various
+          classes, including dance, swim, and sports, offered by the recreation
+          center.
         </p>
         <p>
           <a
@@ -27,6 +29,15 @@ export default function GymAppPage() {
             rel="noopener noreferrer"
           >
             Mobile High Fidelity Prototype
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://docs.google.com/presentation/d/1NwR-aTcTTCk_QUYaYg-Gmofql62RbcYXIJzdilwLG18/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Case study
           </a>
         </p>
         <div className="iframeWrapper">
