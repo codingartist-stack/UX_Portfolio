@@ -6,15 +6,29 @@ export default function ArtMuseumPage() {
       </div>
 
       <div className="contentWrapper">
+        <h2>Project:</h2>
         <p>
-          To develop a user-friendly Art Museum website, I conducted research on
-          individuals who appreciate visual arts. I hypothesized that users
-          exploring an art museum's website or app likely have an interest in
-          experiencing the artwork firsthand. However, it became apparent that
-          users are more interested in understanding what exhibits to anticipate
-          and whether the museum provides opportunities for studying, learning,
-          and engaging in art creation.
+          Creating a website for the Art Museum with a focus on
+          user-friendliness and responsiveness is essential. The primary goals
+          include promoting exhibitions and events, offering comprehensive
+          museum information, and facilitating visitor scheduling.
         </p>
+        <p>
+          As an artist, I frequent art museums and galleries whenever I can. My
+          assumption was that individuals exploring an art museum's website or
+          app would primarily seek an opportunity to experience the artwork in
+          person. Yet, it became evident that users, including myself, are more
+          intrigued by knowing what exhibits to expect and whether the museum
+          offers opportunities for study, learning, and active participation in
+          art creation.
+        </p>
+
+        <hr />
+        <p>Created by: Sarah Larsen</p>
+        <p>
+          Role: logo design, brand identity, lead UX designer and researcher
+        </p>
+        <p>Project Duration: Feb 2024</p>
         <p>
           <a
             href="https://docs.google.com/presentation/d/18YKe5o1r_ceKvSgS5rVZzwj4A_vJFkZVz66f-tQ5cjY/edit?usp=sharing"
