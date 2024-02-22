@@ -418,6 +418,7 @@ footer p {
 }
 
 .infoWrapper {
+  align-self: start;
   display: grid;
   gap: 0.5rem;
 }
@@ -435,7 +436,4 @@ footer p {
 }
 
 @media screen and (max-width: 45rem) {
-  .infoWrapper {
-    justify-items: center;
-  }
 }

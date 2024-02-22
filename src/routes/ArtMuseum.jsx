@@ -54,6 +54,15 @@ export default function ArtMuseumPage() {
 
         <h2>Process:</h2>
         <h2>Final: </h2>
+        <p>
+          After dedicating a year to learning front-end coding, I embarked on
+          this project. My comprehension of the capabilities within HTML and CSS
+          played a pivotal role in guiding my decisions regarding the elements
+          to incorporate for achieving responsive design. Additionally, I
+          incorporated Figma components in this project to maintain a tidy and
+          uniform design throughout.
+        </p>
+        {/* take aways */}
       </div>
     </>
   );
