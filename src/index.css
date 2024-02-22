@@ -200,6 +200,7 @@ main {
     [full-width-start] minmax(1rem, 1fr) [content-start] min(100% - 2rem, 60rem)
     [content-end] minmax(1rem, 1fr) [full-width-end];
   grid-template-rows: auto 1fr;
+  /* gap: 1.5rem; */
   padding: 1.5rem 0 1.5rem 0;
 }
 
@@ -212,6 +213,10 @@ main > * {
   grid-column: content;
 }
 
+.contentWrapper {
+  padding: 1rem 0 1rem 0;
+}
+
 .contentWrapper a {
   /* padding: 0.5rem; */
   margin: 0.5rem 0 0.5rem 0;
@@ -220,61 +225,6 @@ main > * {
 }
 
 .contentWrapper a:hover {
-  text-decoration: underline;
-}
-
-/* HERO FEATURE */
-.featureProject {
-  position: relative;
-  background-color: black;
-  max-height: 40svh;
-  overflow: clip;
-}
-
-.featureProject h2 {
-  position: absolute;
-  left: 1.5rem;
-  color: white;
-  z-index: 1;
-
-  display: grid;
-  gap: 0.75rem;
-}
-
-/* .featureProject button {
-  position: absolute;
-  bottom: 1rem;
-  left: 1.5rem;
-} */
-
-.heroImage {
-  width: 100%;
-  /* height: 100%; */
-  grid-column: content;
-  object-fit: cover;
-  opacity: 0.45;
-
-  /* box-shadow: 3px 5px 5px rgba(80, 80, 80, 0.2); */
-}
-
-@media (max-width: 45em) {
-  .featureProject {
-    grid-column: full-width;
-  }
-
-  .heroImage {
-    height: 40svh;
-  }
-}
-
-/* CONTACT */
-.flexLink {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.flexLink:hover {
   text-decoration: underline;
 }
 
@@ -317,23 +267,41 @@ main > * {
   opacity: 0.5;
 }
 
-/* iFrame */
+/* CASE STUDY */
 
-.iframeWrapper {
+.caseStudyHero {
   position: relative;
-  overflow: clip;
-  grid-column: content;
-  padding-top: 56.25%;
-
-  margin-top: 1rem;
+  padding: 2rem 0 2rem 0;
+  background-color: var(--clr-secondary-300);
+  background-image: url('./assets/images/ArtMuseum/artProject.png');
 }
 
-.iframeWrapper iframe {
+.heroImage {
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
+  grid-column: content;
+  object-fit: cover;
+  /* opacity: 0.45; */
+  /* box-shadow: 3px 5px 5px rgba(80, 80, 80, 0.2); */
+}
+
+@media (max-width: 45em) {
+  .caseStudyHero {
+    grid-column: full-width;
+  }
+}
+
+/* CONTACT */
+.flexLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.flexLink:hover {
+  text-decoration: underline;
 }
 
 /* FOOTER */

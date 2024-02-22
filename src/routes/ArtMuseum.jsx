@@ -1,7 +1,14 @@
+import artMuseum from '../assets/images/ArtMuseum/artProject.png';
+import artImgLink from '../assets/images/ArtMuseum/artImage.png';
+import gymImgLink from '../assets/images/GymApp/GymImage.png';
+
 export default function ArtMuseumPage() {
   return (
     <>
-      <h1>Responsive Art Museum</h1>
+      <div className="caseStudyHero">
+        <h1>Responsive Art Museum</h1>
+      </div>
+
       <div className="contentWrapper">
         <p>
           To develop a user-friendly Art Museum website, I conducted research on
