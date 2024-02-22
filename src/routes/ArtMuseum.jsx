@@ -21,7 +21,7 @@ export default function ArtMuseumPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Case study Slides
+            Case Study Slide Presentation
           </a>
         </p>
       </div>

@@ -3,7 +3,7 @@ import linkedIn from '../assets/images/linkedInLogo.svg';
 export default function ContactPage() {
   return (
     <>
-      <h1>Contact Me</h1>
+      <h1>Contact Me!</h1>
       <div className="contactWrapper">
         <a
           href="https://www.linkedin.com/in/sarahmlarsen/"
