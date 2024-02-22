@@ -274,10 +274,13 @@ main > * {
 
 /* CASE STUDY */
 
+.artMuseumHero {
+  background-image: url('./assets/images/ArtMuseum/Artmockups.png');
+}
+
 .caseStudyHero {
   position: relative;
   padding: 2rem 0 4rem 0;
-  background-image: url('./assets/images/ArtMuseum/Artmockups.png');
   background-size: cover;
   background-position-y: 40%;
   color: white;

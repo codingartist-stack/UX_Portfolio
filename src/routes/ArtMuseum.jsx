@@ -1,7 +1,7 @@
 export default function ArtMuseumPage() {
   return (
     <>
-      <div className="caseStudyHero">
+      <div className="caseStudyHero artMuseumHero">
         <h1>Responsive Art Museum</h1>
       </div>
 
