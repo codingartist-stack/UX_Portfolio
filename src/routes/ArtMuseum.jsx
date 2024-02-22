@@ -36,6 +36,7 @@ export default function ArtMuseumPage() {
         </div>
 
         <hr />
+
         <p>Created by: Sarah Larsen</p>
         <p>
           Role: logo design, brand identity, lead UX designer and researcher
@@ -50,6 +51,9 @@ export default function ArtMuseumPage() {
             Case Study Slide Presentation
           </a>
         </p>
+
+        <h2>Process:</h2>
+        <h2>Final: </h2>
       </div>
     </>
   );
