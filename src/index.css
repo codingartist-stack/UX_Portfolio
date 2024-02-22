@@ -340,6 +340,7 @@ main > * {
 
 .projectWrapper .para {
   grid-area: para;
+  padding-right: 1rem;
 }
 
 .projectWrapper img {
