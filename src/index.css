@@ -314,6 +314,41 @@ main > * {
   }
 }
 
+.mobileGif {
+  border-radius: 10%;
+}
+
+.projectWrapper {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'para image';
+}
+
+@media (max-width: 45em) {
+  .projectWrapper {
+    grid-template-areas:
+      'header'
+      'para'
+      'image';
+  }
+}
+
+.projectWrapper h2 {
+  grid-area: header;
+}
+
+.projectWrapper .para {
+  grid-area: para;
+}
+
+.projectWrapper img {
+  grid-area: image;
+  max-width: 250px;
+  justify-self: center;
+  filter: drop-shadow(5px 5px 5px rgba(80, 80, 80, 0.5));
+}
+
 /* CONTACT */
 .flexLink {
   display: flex;

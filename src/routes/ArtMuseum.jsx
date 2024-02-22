@@ -10,21 +10,24 @@ export default function ArtMuseumPage() {
       <div className="contentWrapper">
         <div className="projectWrapper">
           <h2>Project:</h2>
-          <p>
-            Creating a website for the Art Museum with a focus on
-            user-friendliness and responsiveness is essential. The primary goals
-            include promoting exhibitions and events, offering comprehensive
-            museum information, and facilitating visitor scheduling.
-          </p>
-          <p>
-            As an artist, I frequent art museums and galleries whenever I can.
-            My assumption was that individuals exploring an art museum's website
-            or app would primarily seek an opportunity to experience the artwork
-            in person. Yet, it became evident that users, including myself, are
-            more intrigued by knowing what exhibits to expect and whether the
-            museum offers opportunities for study, learning, and active
-            participation in art creation.
-          </p>
+          <div className="para">
+            <p>
+              Creating a website for the Art Museum with a focus on
+              user-friendliness and responsiveness is essential. The primary
+              goals include promoting exhibitions and events, offering
+              comprehensive museum information, and facilitating visitor
+              scheduling.
+            </p>
+            <p>
+              As an artist, I frequent art museums and galleries whenever I can.
+              My assumption was that individuals exploring an art museum's
+              website or app would primarily seek an opportunity to experience
+              the artwork in person. Yet, it became evident that users,
+              including myself, are more intrigued by knowing what exhibits to
+              expect and whether the museum offers opportunities for study,
+              learning, and active participation in art creation.
+            </p>
+          </div>
           <img
             src={mobileProtoGif}
             alt="GIF (short video) of prototype"
