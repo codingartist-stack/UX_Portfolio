@@ -4,7 +4,10 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <p className="logoFont footerFont">SML</p>
+        <div>
+          <p className="logoFont footerFont">SML</p>
+          <p>Site built with React by me!</p>
+        </div>
 
         <div className="infoWrapper">
           <a href="https://www.linkedin.com/in/sarahmlarsen/" target="_blank">

@@ -1,4 +1,6 @@
 import artMuseum from '../assets/images/ArtMuseum/artProject.png';
+import artImgLink from '../assets/images/ArtMuseum/artImage.png';
+import gymImgLink from '../assets/images/GymApp/GymImage.png';
 import { Link } from 'react-router-dom';
 
 export default function HomePage() {
@@ -12,17 +14,18 @@ export default function HomePage() {
           aspects of interface usability.
         </p>
       </div>
-      <div className="featureProject">
-        <h2>
-          Feature Project: <br /> Responsive Art Musuem
-          <br />
-          <Link to="caseStudies/responsiveArtMuseum">
-            <button>
-              Case Study <span className="scr-only"> arrow-right </span>
-            </button>
-          </Link>
-        </h2>
-        <img src={artMuseum} alt="art Museum project" className="heroImage" />
+      <div className="caseLinkWrapper">
+        <Link to="responsiveArtMuseum" className="imageLink artMuseum">
+          <img src={artImgLink} alt="Art Musuem High Fidelity Mockups" />
+          <h2>Responsive Art Musuem Website</h2>
+        </Link>
+        <Link to="gymAppRedesign" className="imageLink gymApp">
+          <img src={gymImgLink} alt="Gym App High Fidelity Mockup" />
+          <h2>
+            Redesign: <br /> Local Recreation Center
+          </h2>
+        </Link>
+        {/* <div>Project Under Construction</div> */}
       </div>
     </>
   );

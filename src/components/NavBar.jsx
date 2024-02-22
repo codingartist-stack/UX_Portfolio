@@ -33,11 +33,6 @@ export default function NavBar() {
             <NavLink to="about">About</NavLink>
           </li> */}
           <li>
-            <NavLink to="caseStudies" onClick={handleToggle}>
-              UX Case Studies
-            </NavLink>
-          </li>
-          <li>
             <NavLink to="contact" onClick={handleToggle}>
               Contact
             </NavLink>
