@@ -1,5 +1,6 @@
 import mobileProtoGif from '../assets/images/ArtMuseum/MobilePrototypeGIF.gif';
 import beforeAfter from '../assets/images/ArtMuseum/beforeAfter.png';
+import screens from '../assets/images/ArtMuseum/3screens.png';
 
 export default function ArtMuseumPage() {
   return (
@@ -84,6 +85,11 @@ export default function ArtMuseumPage() {
           incorporated Figma components in this project to maintain a tidy and
           uniform design throughout.
         </p>
+        <img
+          src={screens}
+          alt="product displayed on three screens"
+          className="multiScreens"
+        />
         {/* take aways */}
       </div>
     </>

@@ -372,6 +372,10 @@ hr {
   max-width: 250px;
 }
 
+.multiScreens {
+  width: 100%;
+}
+
 /* CONTACT */
 .flexLink {
   display: flex;
