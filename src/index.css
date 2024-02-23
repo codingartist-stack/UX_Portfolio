@@ -354,7 +354,7 @@ hr {
 }
 
 .projectWrapper .para,
-.processWrapper p {
+.processWrapper .para {
   grid-area: para;
   padding-right: 1.5rem;
 }
