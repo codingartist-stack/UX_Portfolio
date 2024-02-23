@@ -331,8 +331,16 @@ hr {
     'para image';
 }
 
+.processWrapper {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'image para';
+}
+
 @media (max-width: 45em) {
-  .projectWrapper {
+  .projectWrapper,
+  .processWrapper {
     grid-template-areas:
       'header'
       'para'
@@ -340,20 +348,28 @@ hr {
   }
 }
 
-.projectWrapper h2 {
+.projectWrapper h2,
+.processWrapper h2 {
   grid-area: header;
 }
 
-.projectWrapper .para {
+.projectWrapper .para,
+.processWrapper p {
   grid-area: para;
-  padding-right: 1rem;
+  padding-right: 1.5rem;
+}
+
+.projectWrapper img,
+.processWrapper img {
+  grid-area: image;
+  width: 85%;
+  align-self: center;
+  justify-self: center;
+  filter: drop-shadow(5px 5px 5px rgba(80, 80, 80, 0.5));
 }
 
 .projectWrapper img {
-  grid-area: image;
   max-width: 250px;
-  justify-self: center;
-  filter: drop-shadow(5px 5px 5px rgba(80, 80, 80, 0.5));
 }
 
 /* CONTACT */

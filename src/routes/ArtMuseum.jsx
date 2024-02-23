@@ -1,4 +1,5 @@
 import mobileProtoGif from '../assets/images/ArtMuseum/MobilePrototypeGIF.gif';
+import beforeAfter from '../assets/images/ArtMuseum/beforeAfter.png';
 
 export default function ArtMuseumPage() {
   return (
@@ -52,7 +53,28 @@ export default function ArtMuseumPage() {
           </a>
         </p>
 
-        <h2>Process:</h2>
+        <hr />
+
+        <div className="processWrapper">
+          <h2>Process:</h2>
+          <p>
+            Within a week, I outlined my basic layout and crafted a low-fidelity
+            mockup using Figma. Seeking feedback, I enlisted the help of a
+            software engineer named Ben and a UX designer named Brock as my test
+            users. Ben suggested the inclusion of an event filter, while Brock
+            emphasized the need to declutter the billing page. I addressed both
+            concerns before progressing to the high-fidelity mockups. Spending
+            another week fine-tuning the high-fidelity mockup, I presented it to
+            Ben and Brock, who both appreciated the changes. However, Brock
+            highlighted the need for improvement in the confirmation page
+            hierarchy, expressing a sense of confusion. Acknowledging his
+            feedback, I made the necessary adjustments to enhance clarity.
+          </p>
+          <img
+            src={beforeAfter}
+            alt="before and after usability study events page mockups"
+          />
+        </div>
         <h2>Final: </h2>
         <p>
           After dedicating a year to learning front-end coding, I embarked on
