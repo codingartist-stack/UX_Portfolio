@@ -10,6 +10,7 @@ import ContactPage from './routes/Contact.jsx';
 import CaseStudies from './routes/CaseStudies.jsx';
 import ArtMuseumPage from './routes/ArtMuseum.jsx';
 import GymAppPage from './routes/GymAppPage.jsx';
+import CACHDPage from './routes/CACHD.jsx';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,14 @@ const router = createBrowserRouter([
       {
         path: 'gymAppRedesign',
         element: <GymAppPage />,
+      },
+      {
+        path: 'caseStudies/CACHDRedesign',
+        element: <CACHDPage />,
+      },
+      {
+        path: 'CACHDRedesign',
+        element: <CACHDPage />,
       },
     ],
   },
