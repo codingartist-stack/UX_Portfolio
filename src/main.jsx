@@ -31,28 +31,12 @@ const router = createBrowserRouter([
         element: <ContactPage />,
       },
       {
-        path: 'caseStudies',
-        element: <CaseStudies />,
-      },
-      {
-        path: 'caseStudies/responsiveArtMuseum',
-        element: <ArtMuseumPage />,
-      },
-      {
         path: 'responsiveArtMuseum',
         element: <ArtMuseumPage />,
       },
       {
-        path: 'caseStudies/gymAppRedesign',
-        element: <GymAppPage />,
-      },
-      {
         path: 'gymAppRedesign',
         element: <GymAppPage />,
-      },
-      {
-        path: 'caseStudies/CACHDRedesign',
-        element: <CACHDPage />,
       },
       {
         path: 'CACHDRedesign',
