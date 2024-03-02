@@ -15,7 +15,7 @@ export default function HomePage() {
         </p>
       </div>
       <div className="caseLinkWrapper">
-        <Link to="responsiveArtMuseum" className="imageLink Theater">
+        <Link to="CACHDRedesign" className="imageLink Theater">
           <img src={theaterImgLink} alt="Art Musuem High Fidelity Mockups" />
           <h2>
             Redesign: <br /> Local Community Theater
