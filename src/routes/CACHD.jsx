@@ -1,6 +1,9 @@
 import mobileProtoGif from '../assets/images/CACHD/Phone_LowFi.gif';
 import logoSlide from '../assets/images/CACHD/CACHD_LogoSlide.png';
 import desktopGif from '../assets/images/CACHD/DeskTopMockup.gif';
+import currentShows from '../assets/images/CACHD/listofShows.png';
+import currentTickets from '../assets/images/CACHD/CurrentSite_tickets.png';
+import currentHome from '../assets/images/CACHD/CACHD_homepage.png';
 // import beforeAfter from '../assets/images/ArtMuseum/beforeAfter.png';
 // import screens from '../assets/images/ArtMuseum/3screens.png';
 
@@ -65,8 +68,41 @@ export default function CACHDPage() {
 
         <hr />
 
+        <div className="painPointsWrapper">
+          <h2>Pain Points:</h2>
+          <div className="para">
+            <ul>
+              <li> Navigation bar text difficult to read</li>
+              <li>Fonts and font size inconsistent</li>
+              <li>Hierarchy is not always clear</li>
+              <li>
+                List of shows on Homepage is an image with no alternative text
+              </li>
+            </ul>
+          </div>
+          {/* <img src={logoSlide} alt="Logo Process" /> */}
+          <h3>Current Site(as of Feb 2024)</h3>
+          <div className="currentSiteImages">
+            <img
+              src={currentHome}
+              alt="current Theater home page"
+              className="currentImages"
+            />
+            <img
+              src={currentShows}
+              alt="current theater shows page"
+              className="currentImages"
+            />
+            <img
+              src={currentTickets}
+              alt="current theater ticket checkout"
+              className="currentImages"
+            />
+          </div>
+        </div>
+
         <div className="LogoWrapper">
-          <h2>Logo:</h2>
+          <h2>Redesign Logo:</h2>
           <div className="para">
             <p>
               I initiated the project by creating paper wireframes and sketches
@@ -80,7 +116,7 @@ export default function CACHDPage() {
           <img src={logoSlide} alt="Logo Process" />
         </div>
         <div className="processWrapper">
-          <h2>Process:</h2>
+          <h2>Mockups:</h2>
           <div className="para">
             <p>
               I dedicated a few weeks to constructing a comprehensive mockup for
