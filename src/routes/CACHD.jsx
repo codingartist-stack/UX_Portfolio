@@ -115,7 +115,7 @@ export default function CACHDPage() {
           </div>
           <img src={logoSlide} alt="Logo Process" />
         </div>
-        <div className="processWrapper">
+        <div className="imgTextWrapper">
           <h2>Mockups:</h2>
           <div className="para">
             <p>
@@ -128,7 +128,7 @@ export default function CACHDPage() {
               my opinion, elevated the overall visual appeal.
             </p>
           </div>
-          <img src={desktopGif} alt="Logo Process" />
+          <img src={desktopGif} alt="Gif of desktop book facility path" />
         </div>
         <h2>Final: </h2>
         <p>The project is currently undergoing active development</p>

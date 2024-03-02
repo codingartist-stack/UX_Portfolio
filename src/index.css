@@ -331,7 +331,7 @@ hr {
     'para image';
 }
 
-.processWrapper {
+.imgTextWrapper {
   display: grid;
   grid-template-areas:
     'header header'
@@ -349,18 +349,18 @@ hr {
 }
 
 .projectWrapper h2,
-.processWrapper h2 {
+.imgTextWrapper h2 {
   grid-area: header;
 }
 
 .projectWrapper .para,
-.processWrapper .para {
+.imgTextWrapper .para {
   grid-area: para;
   padding-right: 1.5rem;
 }
 
 .projectWrapper img,
-.processWrapper img {
+.imgTextWrapper img {
   grid-area: image;
   width: 85%;
   align-self: center;

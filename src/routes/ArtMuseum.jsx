@@ -56,7 +56,7 @@ export default function ArtMuseumPage() {
 
         <hr />
 
-        <div className="processWrapper">
+        <div className="imgTextWrapper">
           <h2>Process:</h2>
           <div className="para">
             <p>
