@@ -113,7 +113,7 @@ export default function CACHDPage() {
               merchandise use.
             </p>
           </div>
-          <img src={logoSlide} alt="Logo Process" />
+          <img src={logoSlide} alt="Logo Process" className="logoredesign" />
         </div>
         <div className="imgTextWrapper">
           <h2>Mockups:</h2>
