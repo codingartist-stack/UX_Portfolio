@@ -1,4 +1,4 @@
-import artMuseum from '../assets/images/ArtMuseum/artProject.png';
+import theaterImgLink from '../assets/images/CACHD/Red_CACHD_logo.png';
 import artImgLink from '../assets/images/ArtMuseum/artImage.png';
 import gymImgLink from '../assets/images/GymApp/GymImage.png';
 import { Link } from 'react-router-dom';
@@ -15,6 +15,12 @@ export default function HomePage() {
         </p>
       </div>
       <div className="caseLinkWrapper">
+        <Link to="responsiveArtMuseum" className="imageLink Theater">
+          <img src={theaterImgLink} alt="Art Musuem High Fidelity Mockups" />
+          <h2>
+            Redesign: <br /> Local Community Theater
+          </h2>
+        </Link>
         <Link to="responsiveArtMuseum" className="imageLink artMuseum">
           <img src={artImgLink} alt="Art Musuem High Fidelity Mockups" />
           <h2>Responsive Art Musuem Website</h2>

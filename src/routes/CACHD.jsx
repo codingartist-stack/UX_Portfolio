@@ -1,6 +1,8 @@
 import mobileProtoGif from '../assets/images/CACHD/Phone_LowFi.gif';
-import beforeAfter from '../assets/images/ArtMuseum/beforeAfter.png';
-import screens from '../assets/images/ArtMuseum/3screens.png';
+import logoSlide from '../assets/images/CACHD/CACHD_LogoSlide.png';
+import desktopGif from '../assets/images/CACHD/DeskTopMockup.gif';
+// import beforeAfter from '../assets/images/ArtMuseum/beforeAfter.png';
+// import screens from '../assets/images/ArtMuseum/3screens.png';
 
 export default function CACHDPage() {
   return (
@@ -43,7 +45,14 @@ export default function CACHDPage() {
         <p>
           Role: logo design, brand identity, lead UX designer and researcher
         </p>
-        <p>Project Duration: Feb 2024</p>
+        <p>Project Duration: Feb 2024-Mar 2024</p>
+        <a
+          href="https://www.highdesertarts.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit the Current Site
+        </a>
         <p>
           <a
             href="https://docs.google.com/presentation/d/1yCZJDWHrNNplQ7S6E_nsuHbmt3Mk-M_Voaz-7akf1tU/edit?usp=sharing"
@@ -56,46 +65,42 @@ export default function CACHDPage() {
 
         <hr />
 
+        <div className="LogoWrapper">
+          <h2>Logo:</h2>
+          <div className="para">
+            <p>
+              I initiated the project by creating paper wireframes and sketches
+              for a logo redesign. The existing logo lacked inspiration, and
+              attempts to retain its elements resulted in an overly intricate
+              design. Consequently, I crafted two logos – one for a polished and
+              professional appearance, and the other specifically tailored for
+              merchandise use.
+            </p>
+          </div>
+          <img src={logoSlide} alt="Logo Process" />
+        </div>
         <div className="processWrapper">
           <h2>Process:</h2>
           <div className="para">
             <p>
-              Within a week, I outlined my basic layout and crafted a
-              low-fidelity mockup using Figma. Seeking feedback, I enlisted the
-              help of a software engineer named Ben and a UX designer named
-              Brock as my test users. Ben suggested the inclusion of an event
-              filter, while Brock emphasized the need to declutter the billing
-              page. I addressed both concerns before progressing to the
-              high-fidelity mockups.
-            </p>
-            <p>
-              Spending another week fine-tuning the high-fidelity mockup, I
-              presented it to Ben and Brock, who both appreciated the changes.
-              However, Brock highlighted the need for improvement in the
-              confirmation page hierarchy, expressing a sense of confusion.
-              Acknowledging his feedback, I made the necessary adjustments to
-              enhance clarity.
+              I dedicated a few weeks to constructing a comprehensive mockup for
+              the entire site. Even without images, the mockup exhibited a
+              cleaner aesthetic compared to the current site. I enhanced the
+              text contrast throughout, maintaining a consistent appearance
+              across pages by eliminating background images. While the color
+              scheme remains anchored in red, the addition of a gold accent, in
+              my opinion, elevated the overall visual appeal.
             </p>
           </div>
-          <img
-            src={beforeAfter}
-            alt="before and after usability study events page mockups"
-          />
+          <img src={desktopGif} alt="Logo Process" />
         </div>
         <h2>Final: </h2>
-        <p>
-          After dedicating a year to learning front-end coding, I embarked on
-          this project. My comprehension of the capabilities within HTML and CSS
-          played a pivotal role in guiding my decisions regarding the elements
-          to incorporate for achieving responsive design. Additionally, I
-          incorporated Figma components in this project to maintain a tidy and
-          uniform design throughout.
-        </p>
-        <img
+        <p>The project is currently undergoing active development</p>
+        {/* <img
           src={screens}
           alt="product displayed on three screens"
           className="multiScreens"
-        />
+        /> */}
         {/* take aways */}
       </div>
     </>
