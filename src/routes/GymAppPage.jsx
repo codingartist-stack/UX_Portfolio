@@ -4,14 +4,14 @@ export default function GymAppPage() {
       <h1>Redesign: Local Recreation Center</h1>
       <div className="contentWrapper">
         <p>
-          This application is designed for the Orem Recreation Center, a local
-          gym I frequented during my time in Orem, Utah. Intended to enhance
-          your recreation center experience, the app addresses the challenges
-          posed by the current website, which often leads to confusion and
-          frustration for users. Primarily catering to mothers, the app
-          simplifies the process of signing up their children for various
-          classes, including dance, swim, and sports, offered by the recreation
-          center.
+          My first Figma Project. This application is designed for the Orem
+          Recreation Center, a local gym I frequented during my time in Orem,
+          Utah. Intended to enhance your recreation center experience, the app
+          addresses the challenges posed by the current website, which often
+          leads to confusion and frustration for users. Primarily catering to
+          mothers, the app simplifies the process of signing up their children
+          for various classes, including dance, swim, and sports, offered by the
+          recreation center.
         </p>
         <p>
           <a
