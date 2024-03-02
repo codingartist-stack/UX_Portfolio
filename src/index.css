@@ -340,7 +340,7 @@ hr {
 
 @media (max-width: 45em) {
   .projectWrapper,
-  .processWrapper {
+  .imgTextWrapper {
     grid-template-areas:
       'header'
       'para'
