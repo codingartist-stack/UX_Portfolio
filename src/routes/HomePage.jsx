@@ -23,7 +23,7 @@ export default function HomePage() {
         </Link>
         <Link to="responsiveArtMuseum" className="imageLink artMuseum">
           <img src={artImgLink} alt="Art Musuem High Fidelity Mockups" />
-          <h2>Responsive Art Musuem Website</h2>
+          <h2>Responsive Art Museum Website</h2>
         </Link>
         <Link to="gymAppRedesign" className="imageLink gymApp">
           <img src={gymImgLink} alt="Gym App High Fidelity Mockup" />
