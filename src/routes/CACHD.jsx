@@ -44,27 +44,29 @@ export default function CACHDPage() {
 
         <hr />
 
-        <p>Created by: Sarah Larsen</p>
-        <p>
-          Role: logo design, brand identity, lead UX designer and researcher
-        </p>
-        <p>Project Duration: Feb 2024-Mar 2024</p>
-        <a
-          href="https://www.highdesertarts.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Visit the Current Site
-        </a>
-        <p>
+        <div className="projectDetails">
+          <p>Created by: Sarah Larsen</p>
+          <p>
+            Role: logo design, brand identity, lead UX designer and researcher
+          </p>
+          <p>Project Duration: Feb 2024-Mar 2024</p>
           <a
-            href="https://docs.google.com/presentation/d/1yCZJDWHrNNplQ7S6E_nsuHbmt3Mk-M_Voaz-7akf1tU/edit?usp=sharing"
+            href="https://www.highdesertarts.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Case Study Slide Presentation
+            Visit the Current Site
           </a>
-        </p>
+          <p>
+            <a
+              href="https://docs.google.com/presentation/d/1yCZJDWHrNNplQ7S6E_nsuHbmt3Mk-M_Voaz-7akf1tU/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Case Study Slide Presentation
+            </a>
+          </p>
+        </div>
 
         <hr />
 
@@ -101,6 +103,8 @@ export default function CACHDPage() {
           </div>
         </div>
 
+        <hr />
+
         <div className="LogoWrapper">
           <h2>Redesign Logo:</h2>
           <div className="para">
@@ -115,6 +119,9 @@ export default function CACHDPage() {
           </div>
           <img src={logoSlide} alt="Logo Process" className="logoredesign" />
         </div>
+
+        <hr />
+
         <div className="imgTextWrapper">
           <h2>Mockups:</h2>
           <div className="para">
@@ -130,6 +137,45 @@ export default function CACHDPage() {
           </div>
           <img src={desktopGif} alt="Gif of desktop book facility path" />
         </div>
+
+        <hr />
+        <div className="usabilityWrapper">
+          <h2>After Usability Study:</h2>
+          <div className="para">
+            <p>
+              For my usability study I interviewed two theatergoers: Esther, an
+              administrative professional working for a county program, and
+              Betsy, an elementary school librarian.
+            </p>
+            <p>
+              Esther pointed out that the horizontal scrolling feature for
+              selecting theater seats was confusing, and she suggested including
+              an email input in the checkout process for confirmation emails.
+              Additionally, she recommended that the "edit seats" button should
+              encompass the ability to edit both shows and show times.
+            </p>
+            <p>
+              Betsy mentioned that if she has to read the booking disclaimer, it
+              should be more prominently displayed on the page. After locating
+              the booking disclaimer, she expressed the desire for additional
+              checkboxes on the request form, specifically for set-up assistance
+              and light and sound operation.
+            </p>
+          </div>
+          <div>
+            <img
+              src={desktopGif}
+              alt="Gif of desktop book facility path"
+              className="usabilityImage"
+            />
+          </div>
+          <img
+            src={desktopGif}
+            alt="Gif of desktop book facility path"
+            className="usabilityImage"
+          />
+        </div>
+        <hr />
         <h2>Final: </h2>
         <p>The project is currently undergoing active development</p>
         {/* <img

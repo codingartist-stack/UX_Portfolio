@@ -204,7 +204,6 @@ main {
     [full-width-start] minmax(1rem, 1fr) [content-start] min(100% - 2rem, 60rem)
     [content-end] minmax(1rem, 1fr) [full-width-end];
   grid-template-rows: auto 1fr;
-  /* gap: 1.5rem; */
   padding: 1.5rem 0 1.5rem 0;
 }
 
@@ -219,6 +218,8 @@ main > * {
 
 .contentWrapper {
   padding: 1rem 0 1rem 0;
+  display: grid;
+  gap: 1.5rem;
 }
 
 .contentWrapper a {
@@ -379,7 +380,8 @@ hr {
   justify-items: center;
 }
 
-.logoredesign {
+.logoredesign,
+.usabilityImage {
   width: 100%;
 }
 

@@ -39,20 +39,22 @@ export default function ArtMuseumPage() {
 
         <hr />
 
-        <p>Created by: Sarah Larsen</p>
-        <p>
-          Role: logo design, brand identity, lead UX designer and researcher
-        </p>
-        <p>Project Duration: Feb 2024</p>
-        <p>
-          <a
-            href="https://docs.google.com/presentation/d/18YKe5o1r_ceKvSgS5rVZzwj4A_vJFkZVz66f-tQ5cjY/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Case Study Slide Presentation
-          </a>
-        </p>
+        <div className="projectDetails">
+          <p>Created by: Sarah Larsen</p>
+          <p>
+            Role: logo design, brand identity, lead UX designer and researcher
+          </p>
+          <p>Project Duration: Feb 2024</p>
+          <p>
+            <a
+              href="https://docs.google.com/presentation/d/18YKe5o1r_ceKvSgS5rVZzwj4A_vJFkZVz66f-tQ5cjY/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Case Study Slide Presentation
+            </a>
+          </p>
+        </div>
 
         <hr />
 
