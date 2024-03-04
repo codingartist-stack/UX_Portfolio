@@ -16,13 +16,13 @@ export default function HomePage() {
       </div>
       <div className="caseLinkWrapper">
         <Link to="CACHDRedesign" className="imageLink Theater">
-          <img src={theaterImgLink} alt="Art Musuem High Fidelity Mockups" />
+          <img src={theaterImgLink} alt="Art Museum High Fidelity Mockups" />
           <h2>
             Redesign: <br /> Local Community Theater
           </h2>
         </Link>
         <Link to="responsiveArtMuseum" className="imageLink artMuseum">
-          <img src={artImgLink} alt="Art Musuem High Fidelity Mockups" />
+          <img src={artImgLink} alt="Art Museum High Fidelity Mockups" />
           <h2>Responsive Art Museum Website</h2>
         </Link>
         <Link to="gymAppRedesign" className="imageLink gymApp">
