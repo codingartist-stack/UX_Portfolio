@@ -4,7 +4,8 @@ import desktopGif from '../assets/images/CACHD/DeskTopMockup.gif';
 import currentShows from '../assets/images/CACHD/listofShows.png';
 import currentTickets from '../assets/images/CACHD/CurrentSite_tickets.png';
 import currentHome from '../assets/images/CACHD/CACHD_homepage.png';
-// import beforeAfter from '../assets/images/ArtMuseum/beforeAfter.png';
+import beforeAfterSeats from '../assets/images/CACHD/usabilitySeats.png';
+import beforeAfterBooking from '../assets/images/CACHD/usabilityBooking.png';
 // import screens from '../assets/images/ArtMuseum/3screens.png';
 
 export default function CACHDPage() {
@@ -105,7 +106,7 @@ export default function CACHDPage() {
 
         <hr />
 
-        <div className="LogoWrapper">
+        <div className="LogoWrapper textImgWrapper">
           <h2>Redesign Logo:</h2>
           <div className="para">
             <p>
@@ -162,18 +163,18 @@ export default function CACHDPage() {
               and light and sound operation.
             </p>
           </div>
-          <div>
+          <div className="usabilityImages">
             <img
-              src={desktopGif}
+              src={beforeAfterSeats}
+              alt="Gif of desktop book facility path"
+              className="usabilityImage"
+            />
+            <img
+              src={beforeAfterBooking}
               alt="Gif of desktop book facility path"
               className="usabilityImage"
             />
           </div>
-          <img
-            src={desktopGif}
-            alt="Gif of desktop book facility path"
-            className="usabilityImage"
-          />
         </div>
         <hr />
         <h2>Final: </h2>

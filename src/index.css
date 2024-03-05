@@ -339,9 +339,17 @@ hr {
     'image para';
 }
 
+.textImgWrapper {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'para image';
+}
+
 @media (max-width: 45em) {
   .projectWrapper,
-  .imgTextWrapper {
+  .imgTextWrapper,
+  .textImgWrapper {
     grid-template-areas:
       'header'
       'para'
@@ -350,18 +358,21 @@ hr {
 }
 
 .projectWrapper h2,
-.imgTextWrapper h2 {
+.imgTextWrapper h2,
+.textImgWrapper h2 {
   grid-area: header;
 }
 
 .projectWrapper .para,
-.imgTextWrapper .para {
+.imgTextWrapper .para,
+.textImgWrapper .para {
   grid-area: para;
   padding-right: 1.5rem;
 }
 
 .projectWrapper img,
-.imgTextWrapper img {
+.imgTextWrapper img,
+.textImgWrapper img {
   grid-area: image;
   width: 85%;
   align-self: center;
@@ -373,7 +384,8 @@ hr {
   max-width: 250px;
 }
 
-.currentSiteImages {
+.currentSiteImages,
+.usabilityImages {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
