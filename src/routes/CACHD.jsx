@@ -191,7 +191,6 @@ export default function CACHDPage() {
           alt="product displayed four mobile screens"
           className="multiScreens"
         />
-        {/* take aways */}
       </div>
     </>
   );
