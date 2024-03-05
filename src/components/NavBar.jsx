@@ -29,9 +29,9 @@ export default function NavBar() {
               Home
             </NavLink>
           </li>
-          {/* <li>
+          <li>
             <NavLink to="about">About</NavLink>
-          </li> */}
+          </li>
           <li>
             <NavLink to="contact" onClick={handleToggle}>
               Contact
