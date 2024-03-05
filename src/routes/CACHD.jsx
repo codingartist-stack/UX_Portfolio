@@ -1,4 +1,4 @@
-import mobileProtoGif from '../assets/images/CACHD/Phone_LowFi.gif';
+import mobileProtoGif from '../assets/images/CACHD/MobileHiFi_gif.gif';
 import logoSlide from '../assets/images/CACHD/CACHD_LogoSlide.png';
 import desktopGif from '../assets/images/CACHD/DeskTopMockup.gif';
 import currentShows from '../assets/images/CACHD/listofShows.png';
