@@ -6,6 +6,7 @@ import currentTickets from '../assets/images/CACHD/CurrentSite_tickets.png';
 import currentHome from '../assets/images/CACHD/CACHD_homepage.png';
 import beforeAfterSeats from '../assets/images/CACHD/usabilitySeats.png';
 import beforeAfterBooking from '../assets/images/CACHD/usabilityBooking.png';
+import phoneDisplay from '../assets/images/CACHD/PhoneDisplay.png';
 // import screens from '../assets/images/ArtMuseum/3screens.png';
 
 export default function CACHDPage() {
@@ -132,8 +133,8 @@ export default function CACHDPage() {
               cleaner aesthetic compared to the current site. I enhanced the
               text contrast throughout, maintaining a consistent appearance
               across pages by eliminating background images. While the color
-              scheme remains anchored in red, the addition of a gold accent, in
-              my opinion, elevated the overall visual appeal.
+              scheme remains anchored in red with a gold accent keeping the
+              brand of the current site.
             </p>
           </div>
           <img src={desktopGif} alt="Gif of desktop book facility path" />
@@ -178,12 +179,18 @@ export default function CACHDPage() {
         </div>
         <hr />
         <h2>Final: </h2>
-        <p>The project is currently undergoing active development</p>
-        {/* <img
-          src={screens}
-          alt="product displayed on three screens"
+        <p>
+          Since I created a sticker sheet and made hierarchy decisions at the
+          start the high fidelity came together quickly. I discovered that
+          having a clear comprehension of the project and its branding
+          streamlines the workflow, making it more efficient and
+          straightforward.
+        </p>
+        <img
+          src={phoneDisplay}
+          alt="product displayed four mobile screens"
           className="multiScreens"
-        /> */}
+        />
         {/* take aways */}
       </div>
     </>
