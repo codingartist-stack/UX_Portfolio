@@ -84,7 +84,7 @@ export default function ArtMuseumPage() {
             alt="before and after usability study events page mockups"
           />
         </div>
-        <h2>Final: </h2>
+        <h2>Final Thoughts: </h2>
         <p>
           After dedicating a year to learning front-end coding, I embarked on
           this project. My comprehension of the capabilities within HTML and CSS
