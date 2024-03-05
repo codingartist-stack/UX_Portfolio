@@ -35,24 +35,7 @@ export default function GymAppPage() {
           </p>
         </div>
         <hr />
-        <p>
-          <a
-            href="https://www.figma.com/file/YH0F1UFBFNj0xZzKAW6UJL/Gym-App?type=design&node-id=125%3A1361&mode=design&t=HhRsOedWQJIQOYeJ-1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Figma High Fidelity Mockups
-          </a>
-        </p>
-        <p>
-          <a
-            href="https://www.figma.com/proto/YH0F1UFBFNj0xZzKAW6UJL/Gym-App?type=design&node-id=126-1362&t=0p72Vi6LQrwTbeVs-1&scaling=scale-down&page-id=125%3A1361&starting-point-node-id=126%3A1362&mode=design"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Mobile High Fidelity Prototype
-          </a>
-        </p>
+
         <p>
           <a
             href="https://docs.google.com/presentation/d/1NwR-aTcTTCk_QUYaYg-Gmofql62RbcYXIJzdilwLG18/edit?usp=sharing"
