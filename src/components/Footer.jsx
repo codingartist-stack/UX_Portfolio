@@ -1,4 +1,5 @@
 import linkedIn from '../assets/images/linkedInLogoWhite.svg';
+import instagram from '../assets/images/instgramLogoWhite.svg';
 
 export default function Footer() {
   return (
@@ -6,6 +7,9 @@ export default function Footer() {
       <footer>
         <div>
           <p className="logoFont footerFont">SML</p>
+          <p>
+            <span className="scr-only">map-marker</span> Hesperia, CA
+          </p>
           <p>Site built with React by me!</p>
         </div>
 
@@ -16,6 +20,10 @@ export default function Footer() {
               https://www.linkedin.com/in/sarahmlarsen/
             </span>
           </a>
+          <a href="https://www.instagram.com/pollitolarsen/" target="_blank">
+            <img src={instagram} alt="Linkedin icon" className="footerIcon" />
+            pollitolarsen
+          </a>
           <a
             href="https://docs.google.com/document/d/1z9zeW7c0c3TFS-KmFFlD7nkfAH47Dq-8Yatf7SDxy8g/edit?usp=sharing"
             target="_blank"
@@ -25,9 +33,6 @@ export default function Footer() {
           </a>
           <p>
             <span className="scr-only">envelope</span> sarahlarsenux@gmail.com
-          </p>
-          <p>
-            <span className="scr-only">map-marker</span> Hesperia, CA
           </p>
         </div>
       </footer>
