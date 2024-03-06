@@ -26,14 +26,15 @@ export default function GymAppPage() {
           <p>Project Duration: April 2022 to Aug 2022</p>
           <p>
             <a
-              href="https://docs.google.com/presentation/d/18YKe5o1r_ceKvSgS5rVZzwj4A_vJFkZVz66f-tQ5cjY/edit?usp=sharing"
+              href="https://docs.google.com/presentation/d/1NwR-aTcTTCk_QUYaYg-Gmofql62RbcYXIJzdilwLG18/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Case Study Slide Presentation
+              Case Study Presentation
             </a>
           </p>
         </div>
+
         <hr />
 
         <div className="iframeWrapper">
