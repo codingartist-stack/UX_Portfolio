@@ -2,6 +2,8 @@ import mobileProtoGif from '../assets/images/ArtMuseum/MobilePrototypeGIF.gif';
 import beforeAfter from '../assets/images/ArtMuseum/beforeAfter.png';
 import screens from '../assets/images/ArtMuseum/3screens.png';
 import mockupGif from '../assets/images/ArtMuseum/MockupGif.gif';
+import EmilyImg from '../assets/images/ArtMuseum/EmilyPersona.png';
+import JohnImg from '../assets/images/ArtMuseum/JohnPersona.png';
 
 export default function ArtMuseumPage() {
   return (
@@ -55,6 +57,46 @@ export default function ArtMuseumPage() {
               Case Study Slide Presentation
             </a>
           </p>
+        </div>
+
+        <hr />
+
+        <div className="Personas">
+          <h2>Personas:</h2>
+          <div className="persona">
+            <img src={EmilyImg} alt="Emily Portrait" className="personaImg" />
+            <div className="para">
+              <p>Name: Emily</p>
+              <p>
+                Problem Statement: Emily is a busy professional who needs to
+                easily find the hours of operation, classes, and lectures
+                because she wants to stay connected to the art community and be
+                around other art enthusiasts.
+              </p>
+              <p>Goals: Have access to lecture and class scheduling.</p>
+              <p>
+                Frustrations: Finding hours for the day she is visiting the
+                site.
+              </p>
+            </div>
+          </div>
+          <div className="persona textImgPersona">
+            <img src={JohnImg} alt="John Portrait" className="personaImg" />
+            <div className="para">
+              <p>Name: John</p>
+              <p>
+                Problem Statement: John is a retired carpenter who needs to
+                easily find the hours of operation and lectures because he wants
+                learn more about history of frames and the carpenters behind
+                them.
+              </p>
+              <p>
+                Goals: Have access to lecture scheduling and hours of
+                operations.
+              </p>
+              <p>Frustrations: Finding hours of operations and lectures.</p>
+            </div>
+          </div>
         </div>
 
         <hr />

@@ -107,6 +107,21 @@ export default function CACHDPage() {
 
         <hr />
 
+        <div className="Personas">
+          <h2>Personas:</h2>
+          <div className="persona">
+            <img src="" alt="" />
+            <div>
+              <p>Name: </p>
+              <p>Problem Statement: </p>
+              <p>Goals:</p>
+              <p>Frustrations:</p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
         <div className="LogoWrapper textImgWrapper">
           <h2>Redesign Logo:</h2>
           <div className="para">

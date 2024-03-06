@@ -401,6 +401,22 @@ hr {
   justify-items: center;
 }
 
+/* PERSONAS */
+.persona {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.textImgPersona {
+  flex-direction: row-reverse;
+}
+
+.personaImg {
+  max-width: 80%;
+}
+
 .logoredesign,
 .usabilityImage {
   width: 100%;
