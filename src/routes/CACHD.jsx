@@ -7,6 +7,8 @@ import currentHome from '../assets/images/CACHD/CACHD_homepage.png';
 import beforeAfterSeats from '../assets/images/CACHD/usabilitySeats.png';
 import beforeAfterBooking from '../assets/images/CACHD/usabilityBooking.png';
 import phoneDisplay from '../assets/images/CACHD/PhoneDisplay.png';
+import BenPortrait from '../assets/images/CACHD/BenPersona.png';
+import AlicePortrait from '../assets/images/CACHD/AlicePersona.png';
 // import screens from '../assets/images/ArtMuseum/3screens.png';
 
 export default function CACHDPage() {
@@ -110,12 +112,36 @@ export default function CACHDPage() {
         <div className="Personas">
           <h2>Personas:</h2>
           <div className="persona">
-            <img src="" alt="" />
+            <img src={BenPortrait} alt="Ben Portrait" className="personaImg" />
             <div>
-              <p>Name: </p>
-              <p>Problem Statement: </p>
-              <p>Goals:</p>
-              <p>Frustrations:</p>
+              <p>Name: Ben</p>
+              <p>
+                Problem Statement: Ben is a busy software engineer who needs to
+                know when performances and auditions are at the local community
+                theater because he would like to be a part of the performing
+                arts community.
+              </p>
+              <p>
+                Goals: Find auditions for musicals and performance schedules.
+              </p>
+              <p>Frustrations: Current site is subpar, banner is distracting</p>
+            </div>
+          </div>
+          <div className="persona textImgPersona">
+            <img
+              src={AlicePortrait}
+              alt="Alice Portrait"
+              className="personaImg"
+            />
+            <div>
+              <p>Name: Alice</p>
+              <p>
+                Problem Statement: Alice is a retired Grandmother who needs to
+                know how to volunteer at the snake bar theater because she wants
+                to feel useful and apart of a community.
+              </p>
+              <p>Goals: Find who to contact to volunteer.</p>
+              <p>Frustrations: Can't read small text.</p>
             </div>
           </div>
         </div>
