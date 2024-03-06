@@ -76,6 +76,11 @@ button:hover {
   width: 100%;
 }
 
+.lostRacoon {
+  align-self: start;
+  max-width: 80%;
+}
+
 .scr-only {
   font-family: var(--font-family-icon);
   padding: 0 0.5rem 0 0.5rem;

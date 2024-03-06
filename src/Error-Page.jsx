@@ -1,5 +1,6 @@
 import { useRouteError } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import errorRacoon from './assets/images/ErrorRacoon.png';
 
 export default function ErrorPage() {
   const error = useRouteError();
@@ -14,6 +15,7 @@ export default function ErrorPage() {
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
+      <img src={errorRacoon} alt="Racoon Lost" className="lostRacoon" />
     </div>
   );
 }
