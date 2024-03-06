@@ -36,15 +36,6 @@ export default function GymAppPage() {
         </div>
         <hr />
 
-        <p>
-          <a
-            href="https://docs.google.com/presentation/d/1NwR-aTcTTCk_QUYaYg-Gmofql62RbcYXIJzdilwLG18/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Case study
-          </a>
-        </p>
         <div className="iframeWrapper">
           <iframe
             src="https://docs.google.com/presentation/d/e/2PACX-1vR6b-eMdJqWdZdCvHPKKFg7Rl9piTqGDdM7HViAAfTpXI2-sUMn9mOFG-I_LeVlODdJ83beZ-7CYMBS/embed?start=false&loop=false&delayms=3000"
