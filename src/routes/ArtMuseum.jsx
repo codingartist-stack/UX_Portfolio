@@ -1,6 +1,7 @@
 import mobileProtoGif from '../assets/images/ArtMuseum/MobilePrototypeGIF.gif';
 import beforeAfter from '../assets/images/ArtMuseum/beforeAfter.png';
 import screens from '../assets/images/ArtMuseum/3screens.png';
+import mockupGif from '../assets/images/ArtMuseum/MockupGif.gif';
 
 export default function ArtMuseumPage() {
   return (
@@ -58,17 +59,34 @@ export default function ArtMuseumPage() {
 
         <hr />
 
-        <div className="imgTextWrapper">
-          <h2>Process:</h2>
+        <div className="textImgWrapper">
+          <h2>Mockups: </h2>
           <div className="para">
             <p>
-              Within a week, I outlined my basic layout and crafted a
-              low-fidelity mockup using Figma. Seeking feedback, I enlisted the
-              help of a software engineer named Ben and a UX designer named
-              Brock as my test users. Ben suggested the inclusion of an event
-              filter, while Brock emphasized the need to declutter the billing
-              page. I addressed both concerns before progressing to the
-              high-fidelity mockups.
+              During the creation of paper wireframes, it became evident that
+              users are keen on understanding what to expect during their visit,
+              whether it's to view works from a specific artist or attend a
+              particular speaker's session. As a result, users typically don't
+              immediately make ticket purchases upon visiting the site. To
+              address this, I aimed to provide users with multiple entry points
+              into the ticket purchase flow. Within a week, I delineated the
+              basic layout and developed a low-fidelity mockup using Figma.
+            </p>
+          </div>
+          <img src={mockupGif} alt="Mockup flow to purchase ticket" />
+        </div>
+
+        <hr />
+
+        <div className="imgTextWrapper">
+          <h2>After Usability Study:</h2>
+          <div className="para">
+            <p>
+              Seeking feedback, I enlisted the help of a software engineer named
+              Ben and a UX designer named Brock as my test users. Ben suggested
+              the inclusion of an event filter, while Brock emphasized the need
+              to declutter the billing page. I addressed both concerns before
+              progressing to the high-fidelity mockups.
             </p>
             <p>
               Spending another week fine-tuning the high-fidelity mockup, I
