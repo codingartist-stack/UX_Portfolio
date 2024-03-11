@@ -254,7 +254,9 @@ main > * {
 }
 
 .imageLink:hover {
-  background-color: var(--clr-primary-hover);
+  /* background-color: var(--clr-primary-hover); */
+  outline: 0.25rem solid var(--clr-primary-700);
+  outline-offset: 0.25rem;
 }
 
 .imageLink h2 {
