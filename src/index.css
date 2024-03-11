@@ -253,7 +253,8 @@ main > * {
   filter: drop-shadow(3px 3px 3px rgba(80, 80, 80, 0.5));
 }
 
-.imageLink:hover {
+.imageLink:hover,
+.imageLink:focus-visible {
   /* background-color: var(--clr-primary-hover); */
   outline: 0.25rem solid var(--clr-primary-700);
   outline-offset: 0.25rem;
