@@ -18,7 +18,7 @@ export default function HomePage() {
         <Link to="CACHDRedesign" className="imageLink Theater">
           <img src={theaterImgLink} alt="Art Museum High Fidelity Mockups" />
           <h2>
-            Redesign: <br /> Local Community Theater
+            Logo and UX Redesign: <br /> Local Community Theater
           </h2>
         </Link>
         <Link to="responsiveArtMuseum" className="imageLink artMuseum">
@@ -28,7 +28,7 @@ export default function HomePage() {
         <Link to="gymAppRedesign" className="imageLink gymApp">
           <img src={gymImgLink} alt="Gym App High Fidelity Mockup" />
           <h2>
-            Redesign: <br /> Local Recreation Center
+            UX Redesign: <br /> Local Recreation Center
           </h2>
         </Link>
         {/* <div>Project Under Construction</div> */}
