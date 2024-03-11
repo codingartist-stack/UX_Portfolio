@@ -1,12 +1,15 @@
 import linkedIn from '../assets/images/linkedInLogoWhite.svg';
 import instagram from '../assets/images/instgramLogoWhite.svg';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
     <>
       <footer>
         <div>
-          <p className="logoFont footerFont">SML</p>
+          <Link>
+            <p className="logoFont footerFont">SML</p>
+          </Link>
           <p>
             <span className="scr-only">map-marker</span> Hesperia, CA
           </p>
