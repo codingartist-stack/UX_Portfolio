@@ -10,7 +10,7 @@ export default function GymAppPage() {
     <>
       <div className="contentWrapper">
         <div className="caseStudyHero">
-          <h1>Redesign: Local Community Theater</h1>
+          <h1>App Redesign: Local Recreation Center</h1>
         </div>
         <div className="projectWrapper">
           <h2>Project:</h2>
