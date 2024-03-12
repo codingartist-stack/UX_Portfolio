@@ -182,6 +182,7 @@ export default function CACHDPage() {
         </div>
 
         <hr />
+
         <div className="usabilityWrapper">
           <h2>After Usability Study:</h2>
           <div className="para">
@@ -208,12 +209,12 @@ export default function CACHDPage() {
           <div className="usabilityImages">
             <img
               src={beforeAfterSeats}
-              alt="Gif of desktop book facility path"
+              alt="Before and After Seat Selection Process"
               className="usabilityImage"
             />
             <img
               src={beforeAfterBooking}
-              alt="Gif of desktop book facility path"
+              alt="Before and After Booking Process"
               className="usabilityImage"
             />
           </div>

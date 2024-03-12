@@ -1,6 +1,9 @@
 import phoneGif from '../assets/images/GymApp/GymPrototype.gif';
 import family from '../assets/images/GymApp/family.png';
 import couple from '../assets/images/GymApp/Couple.png';
+import lowFiGif from '../assets/images/GymApp/lowFiProtoGym.gif';
+import itemBeforeAfter from '../assets/images/GymApp/itempageBeforeAfterGym.png';
+import checkoutBeforeAfter from '../assets/images/GymApp/CheckoutBeforeAfterGym.png';
 
 export default function GymAppPage() {
   return (
@@ -86,16 +89,75 @@ export default function GymAppPage() {
 
         <hr />
 
-        <div className="iframeWrapper">
-          <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vR6b-eMdJqWdZdCvHPKKFg7Rl9piTqGDdM7HViAAfTpXI2-sUMn9mOFG-I_LeVlODdJ83beZ-7CYMBS/embed?start=false&loop=false&delayms=3000"
-            frameborder="0"
-            // width="960"
-            // height="569"
-            allowfullscreen="true"
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-          ></iframe>
+        <div className="imgTextWrapper">
+          <h2>Mockups:</h2>
+          <div className="para">
+            <p>
+              During the paper mock up phase I explored two workflows,purchasing
+              a class and checking workout status, thinking they were similar,
+              but they were not. I decided to focus on purchasing a class as
+              that is an additional cost and talking to other mothers had the
+              most paint points.
+            </p>
+          </div>
+          <img
+            src={lowFiGif}
+            alt="Gif of App purchasing swim lessons"
+            className="mobileGif"
+          />
+        </div>
+
+        <hr />
+
+        <div className="usabilityWrapper">
+          <h2>After Usability Study:</h2>
+          <div className="para">
+            <p>
+              For my usability study I interviewed locals who have children they
+              did or will sign up for classes. The users wanted a way to find
+              lessons for the home page. The users were confused as to what they
+              were purchasing and felt the check ut process was abrupt.
+            </p>
+            <p>
+              To address the users concerns I created an addition page for the
+              item they there looking to purchase and a order summary page to
+              the checkout process.
+            </p>
+          </div>
+          <div className="usabilityImages">
+            <img
+              src={itemBeforeAfter}
+              alt="Before and after of item for purchase"
+              className="usabilityImage"
+            />
+            <img
+              src={checkoutBeforeAfter}
+              alt="before and after check out process"
+              className="usabilityImage"
+            />
+          </div>
+        </div>
+
+        <hr />
+
+        <div className="imgTextWrapper">
+          <h2>Final Thoughts: </h2>
+          <p>
+            My first UX project proved to be a valuable learning experience,
+            underscoring the depth of knowledge yet to explore. Throughout the
+            process, I acquired proficiency in Figma, honed my skills in
+            conducting usability studies, and adeptly utilized available
+            resources to enhance my work. Recognizing the significance of
+            usability studies, I realized the critical role they play in
+            uncovering nuanced design elements. Reflecting on the project a year
+            later, I take pride in my initial strides and the trajectory I
+            continue to pursue.
+          </p>
+          <img
+            src={phoneGif}
+            alt="product displayed four mobile screens"
+            className="mobileGif"
+          />
         </div>
       </div>
     </>
