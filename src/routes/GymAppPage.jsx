@@ -1,4 +1,6 @@
 import phoneGif from '../assets/images/GymApp/GymPrototype.gif';
+import family from '../assets/images/GymApp/family.png';
+import couple from '../assets/images/GymApp/Couple.png';
 
 export default function GymAppPage() {
   return (
@@ -33,6 +35,53 @@ export default function GymAppPage() {
               Case Study Presentation
             </a>
           </p>
+        </div>
+
+        <hr />
+
+        <div className="Personas">
+          <h2>Personas:</h2>
+          <div className="persona">
+            <img
+              src={family}
+              alt="Elizabeth Portrait with her mother and son"
+              className="personaImg"
+            />
+            <div>
+              <p>Name: Elizabeth</p>
+              <p>
+                Problem Statement: Elizabeth is a stay at home mom who needs
+                know when classes and lessons for her, her son, and mother
+                because she would like to to make health a family affair.
+              </p>
+              <p>
+                Goals: Find swim lessons for her son and classes for her and her
+                mother to attend.
+              </p>
+              <p>
+                Frustrations: doesn't want to use her computer at the gym and
+                toddler often causes her to lose her place in the app.
+              </p>
+            </div>
+          </div>
+          <div className="persona textImgPersona">
+            <img src={couple} alt="Alice Portrait" className="personaImg" />
+            <div>
+              <p>Name: Jason and Patricia</p>
+              <p>
+                Problem Statement: Jason and Patricia are newlyweds who would
+                like to sign up for strength training because they would like to
+                work on their health together.
+              </p>
+              <p>
+                Goals: Find a class or trainer to work on strength training.
+              </p>
+              <p>
+                Frustrations: can't always find the time to go to the gym
+                together.
+              </p>
+            </div>
+          </div>
         </div>
 
         <hr />
