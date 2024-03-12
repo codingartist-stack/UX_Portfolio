@@ -15,7 +15,7 @@ export default function CACHDPage() {
   return (
     <>
       <div className="caseStudyHero CACHDHero">
-        <h1>Redesign: Local Community Theater</h1>
+        <h1>Logo and UX Redesign: Local Community Theater</h1>
       </div>
 
       <div className="contentWrapper">

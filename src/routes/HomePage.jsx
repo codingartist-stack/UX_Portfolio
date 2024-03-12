@@ -28,7 +28,7 @@ export default function HomePage() {
         <Link to="gymAppRedesign" className="imageLink gymApp">
           <img src={gymImgLink} alt="Gym App High Fidelity Mockup" />
           <h2>
-            UX Redesign: <br /> Local Recreation Center
+            App Redesign: <br /> Local Recreation Center
           </h2>
         </Link>
         {/* <div>Project Under Construction</div> */}
