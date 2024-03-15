@@ -34,9 +34,9 @@ export default function Footer() {
           >
             <span className="scr-only">file-empty</span> Resume
           </a>
-          <p>
+          {/* <p>
             <span className="scr-only">envelope</span> sarahlarsenux@gmail.com
-          </p>
+          </p> */}
         </div>
       </footer>
     </>
