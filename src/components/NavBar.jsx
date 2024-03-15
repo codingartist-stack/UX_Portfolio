@@ -26,7 +26,7 @@ export default function NavBar() {
         <ul data-visible={navToggle}>
           <li>
             <NavLink to="/" onClick={handleToggle}>
-              Home
+              Portfolio
             </NavLink>
           </li>
           <li>
