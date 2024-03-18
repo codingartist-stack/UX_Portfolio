@@ -8,10 +8,10 @@ import checkoutBeforeAfter from '../assets/images/GymApp/CheckoutBeforeAfterGym.
 export default function GymAppPage() {
   return (
     <>
+      <div className="caseStudyHero">
+        <h1>App Redesign: Local Recreation Center</h1>
+      </div>
       <div className="contentWrapper">
-        <div className="caseStudyHero">
-          <h1>App Redesign: Local Recreation Center</h1>
-        </div>
         <div className="projectWrapper">
           <h2>Project:</h2>
           <p>
@@ -26,7 +26,9 @@ export default function GymAppPage() {
           </p>
           <img src={phoneGif} alt="Final prototype gif" className="mobileGif" />
         </div>
+
         <hr />
+
         <div className="projectDetails">
           <p>Created by: Sarah Larsen</p>
           <p>Role: brand identity, lead UX designer and researcher</p>
