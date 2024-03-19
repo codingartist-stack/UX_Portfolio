@@ -20,9 +20,9 @@ export default function ContactPage() {
             https://www.linkedin.com/in/sarahmlarsen/
           </span>
         </a>
-        <p>
+        {/* <p>
           <span className="scr-only">envelope</span> sarahlarsenux@gmail.com
-        </p>
+        </p> */}
       </div>
     </>
   );
