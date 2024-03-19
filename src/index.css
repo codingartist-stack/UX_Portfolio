@@ -371,7 +371,8 @@ hr {
 
 .projectWrapper h2,
 .imgTextWrapper h2,
-.textImgWrapper h2 {
+.textImgWrapper h2,
+.textImgWrapper h1 {
   grid-area: header;
 }
 

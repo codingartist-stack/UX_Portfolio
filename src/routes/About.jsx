@@ -1,6 +1,8 @@
+import profilePic from '../assets/images/ProfilePicture.jpg';
+
 export default function AboutPage() {
   return (
-    <div className="contentWrapper">
+    <div className="contentWrapper textImgWrapper">
       <h1>About Me</h1>
       <div className="aboutPara">
         <p>
@@ -29,6 +31,7 @@ export default function AboutPage() {
           collaborations.
         </p>
       </div>
+      <img src={profilePic} alt="A Picture of Me, Sarah Larsen" />
     </div>
   );
 }
