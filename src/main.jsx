@@ -12,6 +12,7 @@ import ArtMuseumPage from './routes/ArtMuseum.jsx';
 import GymAppPage from './routes/GymAppPage.jsx';
 import CACHDPage from './routes/CACHD.jsx';
 import DesignsPage from './routes/DesignsPage.jsx';
+import TikiBulldog from './routes/TikiBulldog.jsx';
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: 'designs',
         element: <DesignsPage />,
+      },
+      {
+        path: 'designs/tikiBulldog',
+        element: <TikiBulldog />,
       },
     ],
   },
