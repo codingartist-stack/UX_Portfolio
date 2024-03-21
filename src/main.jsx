@@ -11,6 +11,7 @@ import CaseStudies from './routes/CaseStudies.jsx';
 import ArtMuseumPage from './routes/ArtMuseum.jsx';
 import GymAppPage from './routes/GymAppPage.jsx';
 import CACHDPage from './routes/CACHD.jsx';
+import DesignsPage from './routes/DesignsPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: 'CACHDRedesign',
         element: <CACHDPage />,
+      },
+      {
+        path: 'designs',
+        element: <DesignsPage />,
       },
     ],
   },
