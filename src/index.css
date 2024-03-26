@@ -389,6 +389,10 @@ hr {
 }
 
 /* PERSONAS */
+.Personas {
+  display: grid;
+  gap: 1rem;
+}
 .persona {
   display: flex;
   flex-wrap: wrap;
