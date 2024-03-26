@@ -20,7 +20,7 @@
 
   --clr-primary-700: #674188;
   --clr-primary-hover: #401864;
-  --clr-secondary-300: #c3acd0;
+  --clr-secondary-300: #f0e3f7;
   --clr-neutral-200: #f7efe5;
   --clr-neutral-grey-300: rgb(183, 183, 183);
   --font-family-icon: LinearIcons, Inter, system-ui, Avenir, Helvetica, Arial,
@@ -247,39 +247,31 @@ main > * {
 }
 
 .imageLink {
-  position: relative;
-  height: 35svh;
+  display: grid;
+  justify-content: center;
+  height: min-content;
   border-radius: 10px;
   filter: drop-shadow(3px 3px 3px rgba(80, 80, 80, 0.5));
 }
 
 .imageLink:hover,
 .imageLink:focus-visible {
-  /* background-color: var(--clr-primary-hover); */
   outline: 0.25rem solid var(--clr-primary-700);
-  outline-offset: 0.25rem;
 }
 
 .imageLink h2 {
   color: white;
-  position: absolute;
-  top: 1rem;
-  /* left: 1rem; */
+  margin: 0;
   background-color: var(--clr-primary-700);
-  width: 100%;
-  padding: 0.5rem 0 0.5rem 0.5rem;
+  padding: 1rem;
   font-size: 1.25rem;
-}
-
-.imageLink h2:hover {
-  background-color: var(--clr-primary-hover);
+  border-radius: 10px 10px 0 0;
 }
 
 .imageLink img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
   opacity: 0.9;
 }
 
@@ -299,32 +291,18 @@ hr {
 
 .caseStudyHero {
   position: relative;
-  padding: 2rem 0 4rem 0;
   background-size: cover;
   background-position-y: 40%;
   color: white;
 }
 
 .caseStudyHero h1 {
-  background: rgb(183, 183, 183);
-  background: linear-gradient(
-    135deg,
-    var(--clr-primary-700) 70%,
-    rgba(59, 102, 176, 0) 100%
-  );
-  padding-left: 1rem;
-  text-shadow: 2.5px 2px 0 var(--clr-primary-700);
+  background: var(--clr-primary-700);
+  padding: 1rem;
 }
 
-.heroImage {
-  position: absolute;
-  top: 0;
+.caseStudyHero img {
   width: 100%;
-  height: 100%;
-  grid-column: content;
-  object-fit: cover;
-  /* opacity: 0.45; */
-  /* box-shadow: 3px 5px 5px rgba(80, 80, 80, 0.2); */
 }
 
 @media (max-width: 45em) {
@@ -342,6 +320,11 @@ hr {
   grid-template-areas:
     'header header'
     'para image';
+}
+
+.projectDetails {
+  background-color: var(--clr-secondary-300);
+  padding: 1rem 0.5rem 1rem 0.5rem;
 }
 
 .imgTextWrapper {
@@ -411,6 +394,7 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 
 .textImgPersona {
@@ -418,7 +402,7 @@ hr {
 }
 
 .personaImg {
-  max-width: 80%;
+  max-width: 250px;
 }
 
 .logoredesign,

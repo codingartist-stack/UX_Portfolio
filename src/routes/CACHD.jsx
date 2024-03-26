@@ -9,12 +9,11 @@ import beforeAfterBooking from '../assets/images/CACHD/usabilityBooking.png';
 import phoneDisplay from '../assets/images/CACHD/PhoneDisplay.png';
 import BenPortrait from '../assets/images/CACHD/BenPersona.png';
 import AlicePortrait from '../assets/images/CACHD/AlicePersona.png';
-// import screens from '../assets/images/ArtMuseum/3screens.png';
 
 export default function CACHDPage() {
   return (
     <>
-      <div className="caseStudyHero CACHDHero">
+      <div className="caseStudyHero">
         <h1>Logo and UX Redesign: Local Community Theater</h1>
       </div>
 

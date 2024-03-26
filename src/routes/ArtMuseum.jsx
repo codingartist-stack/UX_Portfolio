@@ -8,7 +8,7 @@ import JohnImg from '../assets/images/ArtMuseum/JohnPersona.png';
 export default function ArtMuseumPage() {
   return (
     <>
-      <div className="caseStudyHero artMuseumHero">
+      <div className="caseStudyHero">
         <h1>Responsive Art Museum</h1>
       </div>
 
