@@ -17,20 +17,21 @@ export default function Footer() {
         <div className="infoWrapper">
           <a href="https://www.linkedin.com/in/sarahmlarsen/" target="_blank">
             <img src={linkedIn} alt="Linkedin icon" className="footerIcon" />
-            <span className="linkedInURL">
+            <span className="hideMobile">
               https://www.linkedin.com/in/sarahmlarsen/
             </span>
           </a>
           <a href="https://www.instagram.com/pollitolarsen/" target="_blank">
             <img src={instagram} alt="Linkedin icon" className="footerIcon" />
-            pollitolarsen
+            <span className="hideMobile">pollitolarsen</span>
           </a>
           <a
             href="https://docs.google.com/document/d/1z9zeW7c0c3TFS-KmFFlD7nkfAH47Dq-8Yatf7SDxy8g/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="scr-only">file-empty</span> Resume
+            <span className="scr-only">file-empty</span>{' '}
+            <span className="hideMobile">Resume</span>
           </a>
           {/* <p>
             <span className="scr-only">envelope</span> sarahlarsenux@gmail.com

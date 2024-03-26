@@ -467,16 +467,16 @@ footer {
 
   display: flex;
   gap: 2rem;
-  align-items: center;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 45rem) {
   footer {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    /* align-items: center; */
   }
 
-  .linkedInURL {
+  .hideMobile {
     display: none;
   }
 }
@@ -520,4 +520,10 @@ footer p {
 }
 
 @media screen and (max-width: 45rem) {
+  .infoWrapper {
+    display: flex;
+    align-self: center;
+    gap: 2rem;
+    /* justify-content: center; */
+  }
 }
