@@ -10,9 +10,7 @@ export default function Footer() {
           <Link>
             <p className="logoFont footerFont">SML</p>
           </Link>
-          <p>
-            <span className="scr-only">map-marker</span> Hesperia, CA
-          </p>
+          <p>Hesperia, CA</p>
           <p>Site built with React by me!</p>
         </div>
 

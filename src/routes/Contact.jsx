@@ -1,4 +1,5 @@
 import linkedIn from '../assets/images/linkedInLogo.svg';
+import instagram from '../assets/images/instgramLogo.svg';
 
 export default function ContactPage() {
   return (
@@ -20,9 +21,22 @@ export default function ContactPage() {
             https://www.linkedin.com/in/sarahmlarsen/
           </span>
         </a>
-        {/* <p>
-          <span className="scr-only">envelope</span> sarahlarsenux@gmail.com
-        </p> */}
+        <a
+          href="https://www.instagram.com/pollitolarsen/"
+          target="_blank"
+          className="flexLink"
+        >
+          <img src={instagram} alt="Linkedin icon" className="footerIcon" />
+          pollitolarsen
+        </a>
+        <a
+          href="https://docs.google.com/document/d/1z9zeW7c0c3TFS-KmFFlD7nkfAH47Dq-8Yatf7SDxy8g/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flexLink"
+        >
+          <span className="scr-only">file-empty</span> Resume
+        </a>
       </div>
     </>
   );

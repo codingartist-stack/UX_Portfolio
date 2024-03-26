@@ -449,6 +449,9 @@ hr {
 
 .contactWrapper {
   padding: 2rem 0 2rem 0;
+  display: grid;
+  align-content: start;
+  gap: 1rem;
 }
 
 /* FOOTER */
