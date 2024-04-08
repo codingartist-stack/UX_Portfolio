@@ -30,7 +30,9 @@ export default function AboutPage() {
           appreciate your interest and look forward to future endeavors and
           collaborations.
         </p>
-        <p>sarahlarsendesigns@gmail.com</p>
+        <p>
+          <span className="scr-only">envelope</span>sarahlarsendesigns@gmail.com
+        </p>
       </div>
       <img src={profilePic} alt="A Picture of Me, Sarah Larsen" />
     </div>
