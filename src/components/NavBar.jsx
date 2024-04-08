@@ -22,6 +22,7 @@ export default function NavBar() {
       <nav className="navigation">
         <NavLink to="/">
           <p className="logoFont">Sarah Larsen</p>
+          <p className="title">UX DESIGNER</p>
         </NavLink>
         <ul data-visible={navToggle}>
           <li>
@@ -34,7 +35,7 @@ export default function NavBar() {
           </li>
           <li>
             <NavLink to="contact" onClick={handleToggle}>
-              Contact
+              Socials
             </NavLink>
           </li>
         </ul>

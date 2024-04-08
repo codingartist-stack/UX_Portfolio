@@ -10,6 +10,15 @@
   src: url('./assets/fonts/BLANKA/Blanka-Regular.otf');
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: MontserratSemiBold;
+  src: url('./assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
 :root {
   font-family: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
@@ -26,7 +35,7 @@
   --font-family-icon: LinearIcons, Inter, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
 
-  --logo-font: 'BLANKA', 'Courier New', Courier, monospace;
+  --logo-font: 'MontserratSemiBold', 'Courier New', Courier, monospace;
 }
 
 html,
@@ -106,6 +115,11 @@ button:hover {
   flex-wrap: wrap;
   box-shadow: 0 5px 5px rgba(80, 80, 80, 0.2);
   /* width: 100%; */
+}
+
+.title {
+  letter-spacing: 1rem;
+  margin: 0.25rem;
 }
 
 .mobileNavToggle {

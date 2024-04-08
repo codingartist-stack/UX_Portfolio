@@ -33,9 +33,10 @@ export default function Footer() {
             <span className="scr-only">file-empty</span>{' '}
             <span className="hideMobile">Resume</span>
           </a>
-          {/* <p>
-            <span className="scr-only">envelope</span> sarahlarsenux@gmail.com
-          </p> */}
+          <p>
+            <span className="scr-only">envelope</span>{' '}
+            sarahlarsendesigns@gmail.com
+          </p>
         </div>
       </footer>
     </>
