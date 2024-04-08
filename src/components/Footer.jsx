@@ -35,7 +35,7 @@ export default function Footer() {
           </a>
           <p>
             <span className="scr-only">envelope</span>{' '}
-            sarahlarsendesigns@gmail.com
+            <span className="hideMobile">sarahlarsendesigns@gmail.com</span>
           </p>
         </div>
       </footer>
