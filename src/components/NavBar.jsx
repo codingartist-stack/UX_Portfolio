@@ -21,7 +21,7 @@ export default function NavBar() {
       </button>
       <nav className="navigation">
         <NavLink to="/">
-          <p className="logoFont">SML</p>
+          <p className="logoFont">Sarah Larsen</p>
         </NavLink>
         <ul data-visible={navToggle}>
           <li>
