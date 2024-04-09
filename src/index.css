@@ -19,6 +19,16 @@
   src: url('./assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
 }
 
+@font-face {
+  font-family: Gruppo;
+  src: url('./assets/fonts/Gruppo/Gruppo-Regular.ttf');
+}
+
+@font-face {
+  font-family: MadimiOne;
+  src: url('./assets/fonts/Madimi_One/MadimiOne-Regular.ttf');
+}
+
 :root {
   font-family: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
@@ -98,7 +108,8 @@ button:hover {
 
 .logoFont {
   font-family: var(--logo-font);
-  font-size: 2.5rem;
+  /* font-family: 'Gruppo', 'Courier New', Courier, monospace; */
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -118,8 +129,9 @@ button:hover {
 }
 
 .title {
-  letter-spacing: 1rem;
+  letter-spacing: 0.75rem;
   margin: 0.25rem;
+  font-family: 'Gruppo', 'Courier New', Courier, monospace;
 }
 
 .mobileNavToggle {
