@@ -130,6 +130,7 @@ button:hover {
 
 .title {
   letter-spacing: 0.75rem;
+  text-align: center;
   margin: 0.25rem;
   font-family: 'Gruppo', 'Courier New', Courier, monospace;
 }
