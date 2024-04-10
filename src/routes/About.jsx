@@ -11,8 +11,8 @@ export default function AboutPage() {
           aspects of interface usability. Having engaged directly with users
           during my tenure at the second-largest hosting provider and education
           technology company in technical support roles, I developed a profound
-          interest in not just empathizing with users' concerns but actively
-          resolving them through the lens of UX/UI design.
+          interest in empathizing with users' concerns and actively resolving
+          them through the lens of UX/UI design.
         </p>
         <p>
           Over the last five years, my primary focus has been raising my
