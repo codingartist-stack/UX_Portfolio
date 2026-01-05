@@ -33,6 +33,14 @@ export default function Footer() {
             <span className="scr-only">file-empty</span>{' '}
             <span className="hideMobile">Resume</span>
           </a>
+          <a
+            href="https://sites.google.com/view/sarahlarsenportfolio/home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="scr-only">file-empty</span>{' '}
+            <span className="hideMobile">Art Portifolio</span>
+          </a>
         </div>
       </footer>
     </>
