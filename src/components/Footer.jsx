@@ -39,7 +39,7 @@ export default function Footer() {
             rel="noopener noreferrer"
           >
             <span className="scr-only">file-empty</span>{' '}
-            <span className="hideMobile">Art Portifolio</span>
+            <span className="hideMobile">Art Portfolio</span>
           </a>
         </div>
       </footer>
