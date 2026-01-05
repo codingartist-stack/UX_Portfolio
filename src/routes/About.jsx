@@ -6,29 +6,28 @@ export default function AboutPage() {
       <h1>About Me</h1>
       <div className="aboutPara">
         <p>
-          As a UX designer and artist, I employ a blend of creative and logical
-          approaches, allowing me to address both the emotional and practical
-          aspects of interface usability. Having engaged directly with users
-          during my tenure at the second-largest hosting provider and education
-          technology company in technical support roles, I developed a profound
-          interest in empathizing with users' concerns and actively resolving
-          them through the lens of UX/UI design.
+          I&apos;m a UX designer with a background in visual art, education, and
+          technical support. I approach design by balancing creativity with
+          logic, focusing on both the emotional and practical aspects of user
+          experience. My early career in web hosting and education technology
+          put me in direct contact with users, where listening to pain points
+          and translating them into clear solutions sparked my interest in
+          human-centered design.
         </p>
         <p>
-          Over the last five years, my primary focus has been raising my
-          daughter. Now that she is starting school, I am eager to re-enter the
-          workforce. Two years ago, I embarked on my UX journey and gained
-          valuable insights. I dedicated a year to mastering HTML, CSS, and
-          React. Upon returning to UX design, I saw how important understanding
-          front-end development was. This knowledge of element and layout
-          limitations has greatly influenced my design process. Combining both
-          skill sets, I successfully built my portfolio site – the one you are
-          currently exploring!
+          Over the past several years, I&apos;ve intentionally built my UX skill
+          set through hands-on projects, coursework, and front-end development
+          fundamentals. I have experience designing user flows, wireframes, and
+          interfaces, and I bring working knowledge of HTML and CSS, which helps
+          me design within real technical constraints and collaborate
+          effectively with developers. I also designed and built this portfolio
+          site from the ground up, applying both UX and front-end principles
+          throughout the process.
         </p>
         <p>
-          Thank you for taking the time to learn more about me, Sarah Larsen. I
-          appreciate your interest and look forward to future endeavors and
-          collaborations.
+          I&apos;m excited to apply my background in problem-solving,
+          communication, and design thinking to create thoughtful, usable
+          experiences—and to continue growing as a UX designer.
         </p>
         <p>
           <span className="scr-only">envelope</span>sarahlarsendesigns@gmail.com
