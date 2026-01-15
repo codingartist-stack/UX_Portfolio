@@ -25,7 +25,7 @@ export default function ContactPage() {
           instagram: pollitolarsen
         </a>
         <a
-          href="https://docs.google.com/document/d/1z9zeW7c0c3TFS-KmFFlD7nkfAH47Dq-8Yatf7SDxy8g/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1iBgfAA1O80oArF5DpnWrsJhKGAE6zxz-ZXdF5VpdBCI/edit?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="flexLink"
