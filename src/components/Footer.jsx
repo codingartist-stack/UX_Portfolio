@@ -26,7 +26,7 @@ export default function Footer() {
             <span className="hideMobile">pollitolarsen</span>
           </a>
           <a
-            href="https://docs.google.com/document/d/1iBgfAA1O80oArF5DpnWrsJhKGAE6zxz-ZXdF5VpdBCI/edit?usp=sharing"
+            href="https://sites.google.com/view/sarahmlarsenportfolio/portfolio"
             target="_blank"
             rel="noopener noreferrer"
           >
