@@ -35,11 +35,11 @@ export default function GymAppPage() {
           <p>Project Duration: April 2022 to Aug 2022</p>
           <p>
             <a
-              href="https://docs.google.com/presentation/d/1NwR-aTcTTCk_QUYaYg-Gmofql62RbcYXIJzdilwLG18/edit?usp=sharing"
+              href="https://www.figma.com/proto/YH0F1UFBFNj0xZzKAW6UJL/Gym-App?node-id=125-1361&p=f&t=ZWnmJOMLG6qQyL46-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=126%3A1362"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Case Study Presentation
+              Link to Mobile High-Fidelity Prototype
             </a>
           </p>
         </div>

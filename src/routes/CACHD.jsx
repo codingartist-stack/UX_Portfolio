@@ -62,11 +62,29 @@ export default function CACHDPage() {
           </a>
           <p>
             <a
-              href="https://docs.google.com/presentation/d/1yCZJDWHrNNplQ7S6E_nsuHbmt3Mk-M_Voaz-7akf1tU/edit?usp=sharing"
+              href="https://docs.google.com/presentation/d/1daUb5P7eMRdfQTW_uhTnnsUlykwSjwW-hDhPY6sCY-Q/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
               Case Study Slide Presentation
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.figma.com/proto/zdVHK50vP9lxHzhthK2M8X/Local-Community-Arts-Center?node-id=0-1&p=f&t=QUoVYSnVkwbKAkCC-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=40%3A383&show-proto-sidebar=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link to Mobile High-Fidelity Prototype
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.figma.com/proto/zdVHK50vP9lxHzhthK2M8X/Local-Community-Arts-Center?node-id=0-1&p=f&t=QUoVYSnVkwbKAkCC-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=20%3A2&show-proto-sidebar=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link to Desktop High-Fidelity Prototype
             </a>
           </p>
         </div>

@@ -50,11 +50,29 @@ export default function ArtMuseumPage() {
           <p>Project Duration: Feb 2024</p>
           <p>
             <a
-              href="https://docs.google.com/presentation/d/18YKe5o1r_ceKvSgS5rVZzwj4A_vJFkZVz66f-tQ5cjY/edit?usp=sharing"
+              href="https://docs.google.com/presentation/d/1tLA-JNyXLMl5RQj9LuZ1sln5qJ5AH-zJhiRb4ZkE5BA/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
               Case Study Slide Presentation
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.figma.com/proto/Qyh7Pb9K30MDvWM1Rd5A1H/Art-Museum?node-id=50-2338&p=f&t=vOT8cwRJQlQ81bxM-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=78%3A2867&show-proto-sidebar=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link to Mobile High-Fidelity Prototype
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.figma.com/proto/Qyh7Pb9K30MDvWM1Rd5A1H/Art-Museum?node-id=50-2338&p=f&t=vOT8cwRJQlQ81bxM-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=55%3A2481&show-proto-sidebar=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link to Desktop High-Fidelity Prototype
             </a>
           </p>
         </div>
